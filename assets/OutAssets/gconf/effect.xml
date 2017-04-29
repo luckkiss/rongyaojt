@@ -1,0 +1,99 @@
+﻿<Data> 
+	<eff id="linkeff" file="fx/CharFx/QJ/FX_common_bingfeng"  lenth="0"/>
+	<eff id="selecteff" file="fx/CharFx/QJ/FX_common_bingfeng" attachto="center" lenth="0"/>
+	<eff id="skill1001" file="QSMY/FX/charFX/playerFx/FX_player_male_attack_01" lenth="30"/>
+	<eff id="skill1002" file="QSMY/FX/charFX/playerFx/FX_player_male_attack_02" lenth="30"/>
+	<eff id="skill1003" file="QSMY/FX/charFX/playerFx/FX_player_male_attack_03" lenth="30"/>
+	<eff id="skill1004" file="QSMY/FX/charFX/playerFx/FX_player_male_skill_1004" lenth="30"/>
+	<eff id="skill1005" file="QSMY/FX/charFX/playerFx/FX_player_male_skill_1005" lenth="30"/>
+	<eff id="skill1006" file="QSMY/FX/charFX/playerFx/FX_player_male_skill_1006" lenth="30"/>
+	<eff id="skill1007" file="QSMY/FX/charFX/playerFx/FX_player_male_skill_1007" lenth="40"/>
+	<eff id="skill1001f" file="QSMY/FX/charFX/playerFx/FX_player_female_attack_01" lenth="30"/>
+	<eff id="skill1002f" file="QSMY/FX/charFX/playerFx/FX_player_female_attack_02" lenth="30"/>
+	<eff id="skill1003f" file="QSMY/FX/charFX/playerFx/FX_player_female_attack_03" lenth="30"/>
+	<eff id="skill1004f" file="QSMY/FX/charFX/playerFx/FX_player_male_skill_1004" lenth="30"/>
+	<eff id="skill1005f" file="QSMY/FX/charFX/playerFx/FX_player_male_skill_1005" lenth="30"/>
+	<eff id="skill1006f" file="QSMY/FX/charFX/playerFx/FX_player_male_skill_1006" lenth="30"/>
+	<eff id="skill1007f" file="QSMY/FX/charFX/playerFx/FX_player_male_skill_1007" lenth="40"/>
+	<eff id="hurt" file="QSMY/FX/commonFx/FX_common_shouji_02" attachto="center" lenth="10"/>
+	<eff id="canying" file="QSMY/FX/charFX/playerFx/FX_canying_01" lenth="10"/>	
+	<eff id="drop_jinbin" file="QSMY/FX/commonFx/FX_common_jinbi" lenth="30"/>
+	<eff id="hero_shengji" file="QSMY/FX/commonFx/FX_common_chongsheng" lenth="30"/>
+	<eff id="hero_chongsheng" file="QSMY/FX/commonFx/FX_common_shengji" lenth="30"/>
+	<eff id="hero_qianghua" file="QSMY/FX/commonFx/FX_common_qianghua" lenth="30"/>
+	<eff id="comm_area" file="QSMY/FX/commonFx/FX_area"/>
+	<eff id="hero_enterscence" file="QSMY/FX/commonFx/FX_common_chuchang" lenth="20"/>
+	
+	
+	<eff id="buff_1" file="QSMY/FX/commonFx/FX_common_buff_01" />
+	<eff id="buff_2" file="QSMY/FX/commonFx/FX_common_buff_02" />
+	<eff id="buff_3" file="QSMY/FX/commonFx/FX_common_buff_03" />
+	<eff id="buff_4" file="QSMY/FX/commonFx/FX_common_buff_04" />
+	<eff id="buff_5" file="QSMY/FX/commonFx/FX_common_buff_05" />
+	<eff id="buff_6" file="QSMY/FX/commonFx/FX_common_buff_06" />
+	<eff id="buff_7" file="QSMY/FX/commonFx/FX_common_buff_07" />
+	<eff id="buff_8" file="QSMY/FX/commonFx/FX_common_buff_14" />
+	<eff id="buff_9" file="QSMY/FX/commonFx/FX_common_buff_08" />
+	<eff id="buff_10" file="QSMY/FX/commonFx/FX_common_buff_03" />
+	<eff id="buff_11" file="QSMY/FX/commonFx/FX_common_buff_16" />
+	<eff id="buff_12" file="QSMY/FX/commonFx/FX_common_buff_02" />
+	<eff id="buff_13" file="QSMY/FX/commonFx/FX_common_buff_02" />
+	<eff id="buff_14" file="QSMY/FX/commonFx/FX_common_buff_10" />
+	<eff id="buff_15" file="QSMY/FX/commonFx/FX_common_buff_10" />
+	<eff id="buff_16" file="QSMY/FX/commonFx/FX_common_buff_11" />
+	<eff id="buff_17" file="QSMY/FX/commonFx/FX_common_buff_02" />
+	<eff id="buff_18" file="QSMY/FX/commonFx/FX_common_buff_15" />
+	<eff id="buff_19" file="QSMY/FX/commonFx/FX_common_buff_04" />
+	<eff id="buff_20" file="QSMY/FX/commonFx/FX_common_buff_17" />
+	<eff id="buff_21" file="QSMY/FX/commonFx/FX_common_buff_13" />
+	
+	<!-- 以后种直接在song的特效里就好了 <eff id="warnning_1" file="QSMY/FX/commonFx/FX_biaoji_01" lenth="20"/> -->
+	<eff id="skill2005_song" file="QSMY/FX/charFX/heroFx/FX_hero_10004_song" lenth="20"/>
+	
+	<eff id="skill2001" file="QSMY/FX/charFX/heroFx/FX_hero_10001_skill" lenth="30"/>
+	<eff id="skill2002" file="QSMY/FX/charFX/heroFx/FX_hero_10002_skill" lenth="30"/>
+	<eff id="skill2003" file="QSMY/FX/charFX/heroFx/FX_hero_10003_skill" lenth="30"/>
+	<eff id="skill2004" file="QSMY/FX/charFX/heroFx/FX_hero_10004_skill" lenth="30"/>
+	<eff id="skill2005" file="QSMY/FX/charFX/heroFx/FX_hero_10005_skill" lenth="30"/>	
+	<eff id="skill2006" file="QSMY/FX/charFX/heroFx/FX_hero_10006_skill" lenth="30"/>
+	<eff id="skill2007" file="QSMY/FX/charFX/heroFx/FX_hero_10007_skill" lenth="30"/>
+	<eff id="skill2008" file="QSMY/FX/charFX/heroFx/FX_hero_10008_skill" lenth="30"/>
+	<eff id="skill2009" file="QSMY/FX/charFX/heroFx/FX_hero_10009_skill" lenth="30"/>
+	<eff id="skill2010" file="QSMY/FX/charFX/heroFx/FX_hero_10010_skill" lenth="30"/>
+	<eff id="skill2011" file="QSMY/FX/charFX/heroFx/FX_hero_10012_skill" lenth="30"/>
+	<eff id="skill2012" file="QSMY/FX/charFX/heroFx/FX_hero_10013_skill" lenth="30"/>
+	<eff id="skill2013" file="QSMY/FX/charFX/heroFx/FX_hero_10015_skill" lenth="30"/>
+	<eff id="skill2014" file="QSMY/FX/charFX/heroFx/FX_hero_10016_skill" lenth="30"/>
+	<eff id="skill2015" file="QSMY/FX/charFX/heroFx/FX_hero_10017_skill" lenth="30"/>
+	<eff id="skill2016" file="QSMY/FX/charFX/heroFx/FX_hero_10018_skill" lenth="30"/>
+	<eff id="skill2017" file="QSMY/FX/charFX/heroFx/FX_hero_10019_skill" lenth="30"/>
+	<eff id="skill2018" file="QSMY/FX/charFX/heroFx/FX_hero_10023_skill" lenth="30"/>
+	<eff id="skill2019" file="QSMY/FX/charFX/heroFx/FX_hero_10029_skill" lenth="30"/>
+	<eff id="skill2020" file="QSMY/FX/charFX/heroFx/FX_hero_10030_skill" lenth="30"/>
+	<eff id="skill2021" file="QSMY/FX/charFX/heroFx/FX_hero_10011_skill" lenth="30"/>
+	<eff id="skill2022" file="QSMY/FX/charFX/heroFx/FX_hero_10014_skill" lenth="30"/>
+	
+	<eff id="atk10001" file="QSMY/FX/charFX/heroFx/FX_hero_10001_attack" lenth="30"/>
+	<eff id="atk10002" file="QSMY/FX/charFX/heroFx/FX_hero_10002_attack" lenth="30"/>
+	<eff id="atk10003" file="QSMY/FX/charFX/heroFx/FX_hero_10003_attack" lenth="30"/>
+	<eff id="atk10004" file="QSMY/FX/charFX/heroFx/FX_hero_10004_attack" lenth="30"/>
+	<eff id="atk10005" file="QSMY/FX/charFX/heroFx/FX_hero_10005_attack" lenth="30"/>	
+	<eff id="atk10006" file="QSMY/FX/charFX/heroFx/FX_hero_10006_attack" lenth="30"/>
+	<eff id="atk10007" file="QSMY/FX/charFX/heroFx/FX_hero_10007_attack" lenth="30"/>
+	<eff id="atk10008" file="QSMY/FX/charFX/heroFx/FX_hero_10008_attack" lenth="30"/>
+	<eff id="atk10009" file="QSMY/FX/charFX/heroFx/FX_hero_10009_attack" lenth="30"/>
+	<eff id="atk10010" file="QSMY/FX/charFX/heroFx/FX_hero_10010_attack" lenth="30"/>
+	<eff id="atk10012" file="QSMY/FX/charFX/heroFx/FX_hero_10012_attack" lenth="30"/>
+	<eff id="atk10013" file="QSMY/FX/charFX/heroFx/FX_hero_10013_attack" lenth="30"/>
+	<eff id="atk10015" file="QSMY/FX/charFX/heroFx/FX_hero_10015_attack" lenth="30"/>
+	<eff id="atk10016" file="QSMY/FX/charFX/heroFx/FX_hero_10016_attack" lenth="30"/>
+	<eff id="atk10017" file="QSMY/FX/charFX/heroFx/FX_hero_10017_attack" lenth="30"/>
+	<eff id="atk10018" file="QSMY/FX/charFX/heroFx/FX_hero_10018_attack" lenth="30"/>
+	<eff id="atk10019" file="QSMY/FX/charFX/heroFx/FX_hero_10019_attack" lenth="30"/>
+	<eff id="atk10023" file="QSMY/FX/charFX/heroFx/FX_hero_10023_attack" lenth="30"/>
+	<eff id="atk10029" file="QSMY/FX/charFX/heroFx/FX_hero_10029_attack" lenth="30"/>
+	<eff id="atk10030" file="QSMY/FX/charFX/heroFx/FX_hero_10030_attack" lenth="30"/>
+	<eff id="atk10011" file="QSMY/FX/charFX/heroFx/FX_hero_10011_attack" lenth="30"/>
+	<eff id="atk10014" file="QSMY/FX/charFX/heroFx/FX_hero_10014_attack" lenth="30"/>
+	
+</Data>

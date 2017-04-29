@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map id="">
+  <env>
+    <fog display="True" density="0.01" mode="Linear" distBegin="18" distEnd="55">
+      <color r="0.176" g="0.047" b="0.588" a="1" />
+    </fog>
+    <amblight>
+      <color r="0.776" g="0.67" b="0.8" a="1" />
+    </amblight>
+	<Lightmap>
+      <asset file="scene/zydt_Scene/scene/LightmapFar-0" />
+    </Lightmap>
+	<LightProbes>
+      <asset file="scene/zydt_Scene/scene/LightProbes" />
+    </LightProbes>
+	<Skybox>
+      <asset file="null" />
+    </Skybox>
+  </env>
+  <Mesh id="35">
+	<asset file="scene/zydt_Scene/zydt_Scene" />
+    <pos x="47" y="0" z="45" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+  </Mesh>
+</map>

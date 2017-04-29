@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map id="">
+  <env>
+    <fog display="False" density="0.1" mode="Linear" distBegin="30" distEnd="40">
+      <color r="0.17" g="0.14" b="0.25" a="1" />
+    </fog>
+    <amblight>
+      <color r="0.2" g="0.2" b="0.2" a="1" />
+    </amblight>
+	<Lightmap>
+      <asset file="scene/stpy_day/scene/LightmapFar-0" />
+    </Lightmap>
+	<LightProbes>
+      <asset file="scene/stpy_day/scene/LightProbes" />
+    </LightProbes>
+	<Skybox>
+      <asset file="null" />
+    </Skybox>
+  </env>
+  <Mesh id="83">
+	<asset file="scene/stpy_day/stpy_day" />
+    <pos x="52" y="0" z="24" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+  </Mesh>
+</map>

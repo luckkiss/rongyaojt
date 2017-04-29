@@ -1,0 +1,9 @@
+using System;
+
+public enum OUTASSETS_LOAD_STEP
+{
+	OALS_NONE,
+	OALS_LOADING,
+	OALS_LOADED,
+	OALS_FAILED = -1
+}

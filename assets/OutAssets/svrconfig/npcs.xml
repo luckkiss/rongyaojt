@@ -1,0 +1,11 @@
+<npcs>
+	<npc id="90001" obj="90001" name="101" defdid="141" act="idle"/>
+	<npc id="90004" obj="90004" name="101" defdid="141" act="idle"/>	
+	<npc id="90005" obj="90005" name="101" defdid="141" act="idle"/>
+	<npc id="90006" obj="90006" name="101" defdid="141" act="idle"/>
+
+
+<dialog did="141" content="0:你好|1:你好啊!|0:再见！"/>
+
+
+</npcs>

@@ -1,0 +1,29 @@
+ManifestFileVersion: 0
+CRC: 1470341505
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: ui_pic.assetbundle
+      Dependencies: {}
+    Info_1:
+      Name: shared_asset.assetbundle
+      Dependencies: {}
+    Info_2:
+      Name: prompt_asset.assetbundle
+      Dependencies: {}
+    Info_3:
+      Name: ui_win.assetbundle
+      Dependencies:
+        Dependency_0: ui_pic.assetbundle
+    Info_4:
+      Name: prompt.assetbundle
+      Dependencies:
+        Dependency_0: shared_asset.assetbundle
+        Dependency_1: prompt_asset.assetbundle
+    Info_5:
+      Name: message.assetbundle
+      Dependencies:
+        Dependency_0: shared_asset.assetbundle
+    Info_6:
+      Name: ui_other.assetbundle
+      Dependencies: {}

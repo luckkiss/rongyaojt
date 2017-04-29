@@ -1,0 +1,364 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{7D129765-D664-41D2-BB69-DF8FD2FCFBAE}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\assets\bin\Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\assets\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\assets\bin\Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTween">
+      <HintPath>..\assets\bin\Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="uSequencerRuntime">
+      <HintPath>..\assets\bin\Data\Managed\uSequencerRuntime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="A4_ButtonClick_UGUI.cs" />
+    <Compile Include="A5_Debugger.cs" />
+    <Compile Include="A6_LuaCall.cs" />
+    <Compile Include="AccessingLuaVariables01.cs" />
+    <Compile Include="AccessingLuaVariables02.cs" />
+    <Compile Include="AnimationBlendModeWrap.cs" />
+    <Compile Include="AnimationClipWrap.cs" />
+    <Compile Include="AnimationStateWrap.cs" />
+    <Compile Include="AnimationWrap.cs" />
+    <Compile Include="AppFacade.cs" />
+    <Compile Include="ApplicationWrap.cs" />
+    <Compile Include="AppView.cs" />
+    <Compile Include="AssetBundleWrap.cs" />
+    <Compile Include="AsyncOperationWrap.cs" />
+    <Compile Include="AudioClipWrap.cs" />
+    <Compile Include="AudioSourceWrap.cs" />
+    <Compile Include="BehaviourWrap.cs" />
+    <Compile Include="BlendWeightsWrap.cs" />
+    <Compile Include="BlurUI.cs" />
+    <Compile Include="BoxColliderWrap.cs" />
+    <Compile Include="BreakBridge.cs" />
+    <Compile Include="ButtonWrap.cs" />
+    <Compile Include="Button_ButtonClickedEventWrap.cs" />
+    <Compile Include="CallLuaFunction_01.cs" />
+    <Compile Include="CallLuaFunction_02.cs" />
+    <Compile Include="CameraClearFlagsWrap.cs" />
+    <Compile Include="CameraWrap.cs" />
+    <Compile Include="CharacterControllerWrap.cs" />
+    <Compile Include="Check_Bone.cs" />
+    <Compile Include="Client.cs" />
+    <Compile Include="ColliderWrap.cs" />
+    <Compile Include="ColorCorrectionEffect.cs" />
+    <Compile Include="ColorCorrect_UI.cs" />
+    <Compile Include="ComponentWrap.cs" />
+    <Compile Include="Controller.cs" />
+    <Compile Include="ControllerCommand.cs" />
+    <Compile Include="CreateGameObject01.cs" />
+    <Compile Include="CreateGameObject02.cs" />
+    <Compile Include="Debugger.cs" />
+    <Compile Include="DebuggerWrap.cs" />
+    <Compile Include="Delay.cs" />
+    <Compile Include="DelegateFactory.cs" />
+    <Compile Include="DelegateFactoryWrap.cs" />
+    <Compile Include="DelegateType.cs" />
+    <Compile Include="DelegateWrap.cs" />
+    <Compile Include="demo_main.cs" />
+    <Compile Include="DestructAfterTime.cs" />
+    <Compile Include="EnableUi.cs" />
+    <Compile Include="Enable_act.cs" />
+    <Compile Include="Enable_closeload.cs" />
+    <Compile Include="Enable_dialog.cs" />
+    <Compile Include="Enable_Eff.cs" />
+    <Compile Include="Enable_Item.cs" />
+    <Compile Include="EnumWrap.cs" />
+    <Compile Include="Facade.cs" />
+    <Compile Include="GameAniCam.cs" />
+    <Compile Include="GameObjectWrap.cs" />
+    <Compile Include="Gradient.cs" />
+    <Compile Include="HelloWorld.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="IController.cs" />
+    <Compile Include="IEnumeratorWrap.cs" />
+    <Compile Include="ILuaWrap.cs" />
+    <Compile Include="IMessage.cs" />
+    <Compile Include="InEditorDo.cs" />
+    <Compile Include="InputWrap.cs" />
+    <Compile Include="IView.cs" />
+    <Compile Include="KeyCodeWrap.cs" />
+    <Compile Include="LightTypeWrap.cs" />
+    <Compile Include="LightWrap.cs" />
+    <Compile Include="LockFreeQueue.cs" />
+    <Compile Include="login_loacal.cs" />
+    <Compile Include="LuaArray.cs" />
+    <Compile Include="LuaBinder.cs" />
+    <Compile Include="LuaClass.cs" />
+    <Compile Include="LuaCoroutines.cs" />
+    <Compile Include="LuaDelegate01.cs" />
+    <Compile Include="LuaDelegate02.cs" />
+    <Compile Include="LuaEnum.cs" />
+    <Compile Include="LuaEnumType.cs" />
+    <Compile Include="LuaField.cs" />
+    <Compile Include="LuaInterface\CheckType.cs" />
+    <Compile Include="LuaInterface\ClassGenerator.cs" />
+    <Compile Include="LuaInterface\CodeGeneration.cs" />
+    <Compile Include="LuaInterface\DelegateGenerator.cs" />
+    <Compile Include="LuaInterface\EventHandlerContainer.cs" />
+    <Compile Include="LuaInterface\ExtractValue.cs" />
+    <Compile Include="LuaInterface\ILuaGeneratedType.cs" />
+    <Compile Include="LuaInterface\LuaBase.cs" />
+    <Compile Include="LuaInterface\LuaChunkReader.cs" />
+    <Compile Include="LuaInterface\LuaClassHelper.cs" />
+    <Compile Include="LuaInterface\LuaClassType.cs" />
+    <Compile Include="LuaInterface\LuaCSFunction.cs" />
+    <Compile Include="LuaInterface\LuaDelegate.cs" />
+    <Compile Include="LuaInterface\LuaDLL.cs" />
+    <Compile Include="LuaInterface\LuaEventHandler.cs" />
+    <Compile Include="LuaInterface\LuaException.cs" />
+    <Compile Include="LuaInterface\LuaFunction.cs" />
+    <Compile Include="LuaInterface\LuaFunctionCallback.cs" />
+    <Compile Include="LuaInterface\LuaGCOptions.cs" />
+    <Compile Include="LuaInterface\LuaGlobalAttribute.cs" />
+    <Compile Include="LuaInterface\LuaHideAttribute.cs" />
+    <Compile Include="LuaInterface\LuaIndexes.cs" />
+    <Compile Include="LuaInterface\LuaMethodWrapper.cs" />
+    <Compile Include="LuaInterface\LuaRegistrationHelper.cs" />
+    <Compile Include="LuaInterface\LuaScriptException.cs" />
+    <Compile Include="LuaInterface\LuaState.cs" />
+    <Compile Include="LuaInterface\LuaStatic.cs" />
+    <Compile Include="LuaInterface\LuaTable.cs" />
+    <Compile Include="LuaInterface\LuaThreadStatus.cs" />
+    <Compile Include="LuaInterface\LuaTypes.cs" />
+    <Compile Include="LuaInterface\MetaFunctions.cs" />
+    <Compile Include="LuaInterface\MethodArgs.cs" />
+    <Compile Include="LuaInterface\MethodCache.cs" />
+    <Compile Include="LuaInterface\MonoPInvokeCallbackAttribute.cs" />
+    <Compile Include="LuaInterface\ObjectExtends.cs" />
+    <Compile Include="LuaInterface\ObjectTranslator.cs" />
+    <Compile Include="LuaInterface\ProxyType.cs" />
+    <Compile Include="LuaInterface\ReaderInfo.cs" />
+    <Compile Include="LuaInterface\ReadLuaFile.cs" />
+    <Compile Include="LuaInterface\RegisterEventHandler.cs" />
+    <Compile Include="LuaMethod.cs" />
+    <Compile Include="LuaObjectMap.cs" />
+    <Compile Include="LuaProtoBuffer01.cs" />
+    <Compile Include="LuaRef.cs" />
+    <Compile Include="LuaScriptMgr.cs" />
+    <Compile Include="LuaStringBuffer.cs" />
+    <Compile Include="LuaWWW.cs" />
+    <Compile Include="Main.cs" />
+    <Compile Include="MapInfo.cs" />
+    <Compile Include="MapPoint.cs" />
+    <Compile Include="MaterialWrap.cs" />
+    <Compile Include="MeshColliderWrap.cs" />
+    <Compile Include="MeshRendererWrap.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="MetaOp.cs" />
+    <Compile Include="MonoBehaviourWrap.cs" />
+    <Compile Include="Monster_born.cs" />
+    <Compile Include="MsgPacket.cs" />
+    <Compile Include="MuGame\UtilsOut.cs" />
+    <Compile Include="network.cs" />
+    <Compile Include="NewbieCode.cs" />
+    <Compile Include="NotiConst.cs" />
+    <Compile Include="NotiData.cs" />
+    <Compile Include="NoToLuaAttribute.cs" />
+    <Compile Include="NpcSC.cs" />
+    <Compile Include="ObjAmbig.cs" />
+    <Compile Include="ObjectWrap.cs" />
+    <Compile Include="OnlyGCAttribute.cs" />
+    <Compile Include="ParticleAnimatorWrap.cs" />
+    <Compile Include="ParticleEmitterWrap.cs" />
+    <Compile Include="ParticleRendererWrap.cs" />
+    <Compile Include="ParticleSystemWrap.cs" />
+    <Compile Include="PhysicsWrap.cs" />
+    <Compile Include="PlayModeWrap.cs" />
+    <Compile Include="Plot.cs" />
+    <Compile Include="PlotMain.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QualitySettingsWrap.cs" />
+    <Compile Include="QueueModeWrap.cs" />
+    <Compile Include="RectTransformWrap.cs" />
+    <Compile Include="RendererWrap.cs" />
+    <Compile Include="RenderSettingsWrap.cs" />
+    <Compile Include="RenderTextureWrap.cs" />
+    <Compile Include="ScreenWrap.cs" />
+    <Compile Include="ScriptsFromFile_01.cs" />
+    <Compile Include="ScriptsFromFile_02.cs" />
+    <Compile Include="SimpleFramework.Manager\GameManager.cs" />
+    <Compile Include="SimpleFramework.Manager\GameModelMgr.cs" />
+    <Compile Include="SimpleFramework.Manager\InterfaceMgr.cs" />
+    <Compile Include="SimpleFramework.Manager\ITimerBehaviour.cs" />
+    <Compile Include="SimpleFramework.Manager\MusicManager.cs" />
+    <Compile Include="SimpleFramework.Manager\NetworkManager.cs" />
+    <Compile Include="SimpleFramework.Manager\PanelManager.cs" />
+    <Compile Include="SimpleFramework.Manager\ResourceManager.cs" />
+    <Compile Include="SimpleFramework.Manager\ThreadManager.cs" />
+    <Compile Include="SimpleFramework.Manager\TimerInfo.cs" />
+    <Compile Include="SimpleFramework.Manager\TimerManager.cs" />
+    <Compile Include="SimpleFramework\AppConst.cs" />
+    <Compile Include="SimpleFramework\EventTriggerListenerLua.cs" />
+    <Compile Include="SimpleFramework\GlobalGenerator.cs" />
+    <Compile Include="SimpleFramework\LuaBehaviour.cs" />
+    <Compile Include="SimpleFramework\LuaHelper.cs" />
+    <Compile Include="SimpleFramework\LuaUI.cs" />
+    <Compile Include="SimpleFramework\ManagerName.cs" />
+    <Compile Include="SimpleFramework\Util.cs" />
+    <Compile Include="SimpleFramework_AppConstWrap.cs" />
+    <Compile Include="SimpleFramework_LuaBehaviourWrap.cs" />
+    <Compile Include="SimpleFramework_LuaHelperWrap.cs" />
+    <Compile Include="SimpleFramework_Manager_NetworkManagerWrap.cs" />
+    <Compile Include="SimpleFramework_Manager_PanelManagerWrap.cs" />
+    <Compile Include="SimpleFramework_Manager_ResourceManagerWrap.cs" />
+    <Compile Include="SimpleFramework_Manager_TimerManagerWrap.cs" />
+    <Compile Include="SimpleFramework_UtilWrap.cs" />
+    <Compile Include="SkinnedMeshRendererWrap.cs" />
+    <Compile Include="SleepTimeoutWrap.cs" />
+    <Compile Include="SpaceWrap.cs" />
+    <Compile Include="SphereColliderWrap.cs" />
+    <Compile Include="StartUpCommand.cs" />
+    <Compile Include="static_plot_camera.cs" />
+    <Compile Include="static_z_roatate.cs" />
+    <Compile Include="stringWrap.cs" />
+    <Compile Include="SvrMapChangePoint.cs" />
+    <Compile Include="System_ObjectWrap.cs" />
+    <Compile Include="TempSc_HiddenItem.cs" />
+    <Compile Include="TempSc_ShakeCamera.cs" />
+    <Compile Include="TempSc_ShowAndHide.cs" />
+    <Compile Include="TestDelegateListener.cs" />
+    <Compile Include="TestDelegateListenerWrap.cs" />
+    <Compile Include="TestEventListener.cs" />
+    <Compile Include="TestEventListenerWrap.cs" />
+    <Compile Include="TestLuaArray.cs" />
+    <Compile Include="TestLuaDelegate.cs" />
+    <Compile Include="TestLuaDelegateWrap.cs" />
+    <Compile Include="TestOverride.cs" />
+    <Compile Include="TestOverride01.cs" />
+    <Compile Include="TestOverrideWrap.cs" />
+    <Compile Include="TestOverride_SpaceWrap.cs" />
+    <Compile Include="TestProtol.cs" />
+    <Compile Include="TestProtolWrap.cs" />
+    <Compile Include="TextureWrap.cs" />
+    <Compile Include="TextWrap.cs" />
+    <Compile Include="ThreadEvent.cs" />
+    <Compile Include="TimeWrap.cs" />
+    <Compile Include="ToLuaExport.cs" />
+    <Compile Include="TouchPhaseWrap.cs" />
+    <Compile Include="TrackedReferenceWrap.cs" />
+    <Compile Include="trail_test.cs" />
+    <Compile Include="TransformWrap.cs" />
+    <Compile Include="Trigger.cs" />
+    <Compile Include="TriggerFB.cs" />
+    <Compile Include="TriggerHandle.cs" />
+    <Compile Include="Trigger_delay.cs" />
+    <Compile Include="Trigger_MonsterDead.cs" />
+    <Compile Include="Trigger_UserBorn.cs" />
+    <Compile Include="TronTrailSection.cs" />
+    <Compile Include="TypeWrap.cs" />
+    <Compile Include="Unenable_item.cs" />
+    <Compile Include="UnityEngine_Events_UnityEventBaseWrap.cs" />
+    <Compile Include="UnityEngine_Events_UnityEventWrap.cs" />
+    <Compile Include="UpdateScrollbar.cs" />
+    <Compile Include="UseDefinedAttribute.cs" />
+    <Compile Include="UVTextureAnimator.cs" />
+    <Compile Include="View.cs" />
+    <Compile Include="Walk_Layer.cs" />
+    <Compile Include="weapon_trail_test.cs" />
+    <Compile Include="WellFired\AmbientLightAdjuster.cs" />
+    <Compile Include="WellFired\AutoPlaySequence.cs" />
+    <Compile Include="WellFired\PrintText.cs" />
+    <Compile Include="WellFired\SequenceTrigger.cs" />
+    <Compile Include="WellFired\USApplyForceEvent.cs" />
+    <Compile Include="WellFired\USCamera_DepthOfField.cs" />
+    <Compile Include="WellFired\USCamera_Dof_and_Bloom.cs" />
+    <Compile Include="WellFired\USCamera_FastBloom.cs" />
+    <Compile Include="WellFired\USChangeColor.cs" />
+    <Compile Include="WellFired\USChangeTexture.cs" />
+    <Compile Include="WellFired\USDisplayImageEvent.cs" />
+    <Compile Include="WellFired\USEnableObjectEvent.cs" />
+    <Compile Include="WellFired\USFadeScreenEvent.cs" />
+    <Compile Include="WellFired\USLoad_CharRes.cs" />
+    <Compile Include="WellFired\USLoad_FXRes.cs" />
+    <Compile Include="WellFired\USLoad_SoundRes.cs" />
+    <Compile Include="WellFired\USLookAtObjectEvent.cs" />
+    <Compile Include="WellFired\USMatchObjectEvent.cs" />
+    <Compile Include="WellFired\USMeshRenderDisable.cs" />
+    <Compile Include="WellFired\USParentAndResetObjectEvent.cs" />
+    <Compile Include="WellFired\USParticleEmitterStartEvent.cs" />
+    <Compile Include="WellFired\USParticleEmitterStopEvent.cs" />
+    <Compile Include="WellFired\USPauseSequenceEvent.cs" />
+    <Compile Include="WellFired\USPlaySequenceEvent.cs" />
+    <Compile Include="WellFired\USPlotPlayOverEvent.cs" />
+    <Compile Include="WellFired\USPrintTextEvent.cs" />
+    <Compile Include="WellFired\USResPlayAnim.cs" />
+    <Compile Include="WellFired\USResPlayFX.cs" />
+    <Compile Include="WellFired\USResPlaySound.cs" />
+    <Compile Include="WellFired\USSetAmbientLightEvent.cs" />
+    <Compile Include="WellFired\USSetFogEvent.cs" />
+    <Compile Include="WellFired\USSetPlaybackRateEvent.cs" />
+    <Compile Include="WellFired\USShowPLOTUI.cs" />
+    <Compile Include="WellFired\USShowZIMU.cs" />
+    <Compile Include="WellFired\USSkipSequenceEvent.cs" />
+    <Compile Include="WellFired\USSleepRigidBody.cs" />
+    <Compile Include="WellFired\USSpawnPrefabEvent.cs" />
+    <Compile Include="WellFired\USStopSequenceEvent.cs" />
+    <Compile Include="WellFired\USTimeScale.cs" />
+    <Compile Include="WellFired\USTimeScaleEvent.cs" />
+    <Compile Include="WellFired\USWaitResLoadingEvent.cs" />
+    <Compile Include="WellFired\USWarpToObject.cs" />
+    <Compile Include="WWWWrap.cs" />
+    <Compile Include="Zone.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.csproj">
+      <Project>{173c1ca2-137e-446f-ac48-016a255fde70}</Project>
+      <Name>Assembly-UnityScript-firstpass</Name>
+    </ProjectReference>
+    <ProjectReference Include="CrossMono.csproj">
+      <Project>{c4e13aa0-38e4-4011-9edf-2b4af65dafd3}</Project>
+      <Name>CrossMono</Name>
+    </ProjectReference>
+    <ProjectReference Include="CrossMonoUnityImpl.csproj">
+      <Project>{ffeb875c-70e4-4b6b-8bc4-5ee396a7f9f8}</Project>
+      <Name>CrossMonoUnityImpl</Name>
+    </ProjectReference>
+    <ProjectReference Include="Debuger.csproj">
+      <Project>{ed9d4dca-c946-4038-8ccd-2f543fc029c0}</Project>
+      <Name>Debuger</Name>
+    </ProjectReference>
+    <ProjectReference Include="GameFramework.csproj">
+      <Project>{a9b8ae02-5f88-42c1-a51e-390e02e2ec6f}</Project>
+      <Name>GameFramework</Name>
+    </ProjectReference>
+    <ProjectReference Include="MuGame.csproj">
+      <Project>{c14d4891-40e0-40cc-8225-5f007b377030}</Project>
+      <Name>MuGame</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

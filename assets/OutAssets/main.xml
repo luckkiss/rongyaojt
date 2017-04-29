@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+   <avatar file="gconf/avatar.xml"/>
+   <effect file="gconf/effect.xml"/>
+   <material file="gconf/material.xml"/>
+   <map file="gconf/map.xml"/>
+   <client>
+    <!--<conf name="equip" file="config/equip.xml" preload="true"/>-->
+ 	<conf name="fwgame" file="config/fwgame.xml" preload="true" />
+	<conf name="general" file="config/general.xml" preload="true" />
+	<!--<conf name="imgres" file="config/imgres.xml" preload="true" />
+	<conf name="items" file="config/items.xml" preload="true" />
+	<conf name="item" file="config/item.xml" preload="true" />
+	<conf name="task" file="config/task.xml" preload="true" />
+	<conf name="hero" file="config/hero.xml" preload="true" />-->
+	<conf name="SvrLevel" file="svrconfig/level.xml" preload="true" />
+	<conf name="outgame" file="config/outgame.xml" preload="true" />
+	<!--<conf name="skill" file="config/skill.xml" preload="true" />-->
+	<!--<conf name="monster" file="svrconfig/monsters.xml" preload="true" />-->
+	<!--<conf name="activityview" file="config/activityview.xml" preload="true" />
+	<conf name="systemopen" file="config/systemopen.xml" preload="true" />
+	<conf name="market" file="config/market.xml" preload="true" />
+	<conf name="ai" file="config/ai.xml" preload="true" />
+	<conf name="shield" file="config/shield.xml" preload="true" />
+	<conf name="vip" file="config/vip.xml" preload="true" />
+	<conf name="system" file="config/system.xml" preload="true" />
+	<conf name="trigger" file="config/trigger.xml" preload="true" />
+	<conf name="guide" file="config/guide.xml" preload="true" /> 
+	<conf name="SvrCarrLvl" file="svrconfig/carrlvl.xml" preload="true" />  
+	<conf name="SvrGeneral" file="svrconfig/general.xml" preload="true" /> 
+	<conf name="SvrItem" file="svrconfig/items.xml" preload="true" />
+	<conf name="SvrMarket" file="svrconfig/market.xml" preload="true" />
+	<conf name="SvrMeri" file="svrconfig/meridians.xml" preload="true" />
+	<conf name="SvrMission" file="svrconfig/missions.xml" preload="true" />
+	<conf name="SvrSkill" file="svrconfig/skills.xml" preload="true" />
+	<conf name="SvrChch" file="svrconfig/cn-ch.xml" preload="true" />
+	<conf name="SvrNPC" file="svrconfig/npcs.xml" preload="true"/>
+	<conf name="SvrMonsters" file="svrconfig/monsters.xml" preload="true"/>-->
+	<conf name="SvrMap" file="svrconfig/map.xml" preload="true"/>
+	
+   </client>
+   <!--<localize path="localize" defzone="cn-chs" langbase="lang/lan_base.xml"/>-->
+</data>

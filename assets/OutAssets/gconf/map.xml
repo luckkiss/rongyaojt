@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+    <map id="1" file="scene/1" mskfile="clientmap/map1.msk" hdtfile="clientmap/map1.crhm" music_file="media/mapmusic/shc" gamecamera = "shc" hdt_z="0.7" min="21" max="1208">
+	  	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+	<map id="2" file="scene/2" mskfile="clientmap/map2.msk" hdtfile="clientmap/map2.crhm" music_file="media/mapmusic/2" gamecamera = "cyx" hdt_z="37" min="21" max="1208">
+	  	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="3" file="scene/3" mskfile="clientmap/map3.msk"  hdtfile="clientmap/map3.crhm" gamecamera = "com"  min="-695" max="1203"> 
+		    <camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+    <map id="6" file="scene/6" mskfile="clientmap/map6.msk"  hdtfile="clientmap/map6.crhm" gamecamera = "com"  min="1066" max="2491">
+	    <camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>	
+	 <map id="8" file="scene/8" mskfile="clientmap/map8.msk" music_file="media/mapmusic/1" gamecamera = "com" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+    <map id="9" file="scene/9" mskfile="clientmap/map9.msk" hdtfile="clientmap/map9.crhm" music_file="media/mapmusic/1" gamecamera = "sl" hdt_z="0.7" min="-695" max="1203"> 
+		<camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+    <map id="10" file="scene/10" mskfile="clientmap/map10.msk" hdtfile="clientmap/map10.crhm" music_file="media/mapmusic/1" gamecamera = "sl" hdt_z="0.7" min="-695" max="1203"> 
+		<camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+    <map id="11" file="scene/11" mskfile="clientmap/map11.msk" hdtfile="clientmap/map11.crhm" music_file="media/mapmusic/1" gamecamera = "sl" hdt_z="0.7" min="-695" max="1203"> 
+		<camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+    <map id="12" file="scene/12" mskfile="clientmap/map12.msk" hdtfile="clientmap/map12.crhm" music_file="media/mapmusic/1" gamecamera = "sl" hdt_z="0.7" min="-695" max="1203"> 
+		<camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="14" file="scene/14" mskfile="clientmap/map14.msk" hdtfile="clientmap/map14.crhm" music_file="media/mapmusic/14" gamecamera = "hm" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="16" file="scene/16" mskfile="clientmap/map16.msk" hdtfile="clientmap/map16.crhm" music_file="media/mapmusic/16" gamecamera = "jhyz" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="17" file="scene/17" mskfile="clientmap/map17.msk" hdtfile="clientmap/map17.crhm" music_file="media/mapmusic/17" gamecamera = "jhyz" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="18" file="scene/18" mskfile="clientmap/map18.msk" hdtfile="clientmap/map18.crhm" music_file="media/mapmusic/18" gamecamera = "jhyz2" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="19" file="scene/19" mskfile="clientmap/map19.msk" hdtfile="clientmap/map19.crhm" music_file="media/mapmusic/19" gamecamera = "sy" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="21" file="scene/21" mskfile="clientmap/map21.msk" hdtfile="clientmap/map21.crhm" music_file="media/mapmusic/21" gamecamera = "jhyz" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="22" file="scene/22" mskfile="clientmap/map22.msk" hdtfile="clientmap/map22.crhm" music_file="media/mapmusic/22" gamecamera = "jhyz2" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="23" file="scene/23" mskfile="clientmap/map23.msk" hdtfile="clientmap/map23.crhm" music_file="media/mapmusic/23" gamecamera = "hm2" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="27" file="scene/27" mskfile="clientmap/map27.msk" hdtfile="clientmap/map27.crhm" music_file="media/mapmusic/19" gamecamera = "sy2" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="31" file="scene/31" mskfile="clientmap/map31.msk" hdtfile="clientmap/map31.crhm" music_file="media/mapmusic/19" gamecamera = "sy" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="33" file="scene/33" mskfile="clientmap/map33.msk" hdtfile="clientmap/map33.crhm" music_file="media/mapmusic/19" gamecamera = "sy" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="34" file="scene/34" mskfile="clientmap/map34.msk" hdtfile="clientmap/map34.crhm" music_file="media/mapmusic/34" gamecamera = "zqjg" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="36" file="scene/36" mskfile="clientmap/map36.msk" hdtfile="clientmap/map36.crhm" music_file="media/mapmusic/36" gamecamera = "zqjg2" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="38" file="scene/38" mskfile="clientmap/map38.msk" hdtfile="clientmap/map38.crhm" music_file="media/mapmusic/38" gamecamera = "mgc" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="40" file="scene/40" mskfile="clientmap/map40.msk" hdtfile="clientmap/map40.crhm" music_file="media/mapmusic/40" gamecamera = "xyg" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="41" file="scene/41" mskfile="clientmap/map41.msk" hdtfile="clientmap/map41.crhm" music_file="media/mapmusic/1" gamecamera = "jgcmd" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="42" file="scene/42" mskfile="clientmap/map42.msk" hdtfile="clientmap/map42.crhm" music_file="media/mapmusic/1" gamecamera = "com2" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+	 <map id="43" file="scene/43" mskfile="clientmap/map43.msk" hdtfile="clientmap/map43.crhm" music_file="media/mapmusic/1" gamecamera = "com2" hdt_z="0.7"  min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="45" rz="0"  fview="45"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+    <map id="45" file="scene/45" mskfile="clientmap/map45.msk" hdtfile="clientmap/map45.crhm" music_file="media/mapmusic/1" gamecamera = "sl" hdt_z="0.7" min="-695" max="1203"> 
+		<camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+    <map id="55" file="scene/55" mskfile="clientmap/map55.msk" hdtfile="clientmap/map55.crhm" music_file="media/mapmusic/1" gamecamera = "md" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="64" file="scene/64" mskfile="clientmap/map64.msk" hdtfile="clientmap/map64.crhm" music_file="media/mapmusic/1" gamecamera = "md" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="70" file="scene/70" mskfile="clientmap/map70.msk" hdtfile="clientmap/map70.crhm" music_file="media/mapmusic/1" gamecamera = "xdwd" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="71" file="scene/71" mskfile="clientmap/map71.msk" hdtfile="clientmap/map71.crhm" music_file="media/mapmusic/1" gamecamera = "xdwd" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="72" file="scene/72" mskfile="clientmap/map72.msk" hdtfile="clientmap/map72.crhm" music_file="media/mapmusic/1" gamecamera = "trss" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="73" file="scene/73" mskfile="clientmap/map73.msk" hdtfile="clientmap/map73.crhm" music_file="media/mapmusic/1" gamecamera = "md" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="83" file="scene/83" mskfile="clientmap/map83.msk" hdtfile="clientmap/map83.crhm" music_file="media/mapmusic/1" gamecamera = "stpy" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="110" file="scene/110" mskfile="clientmap/map110.msk" hdtfile="clientmap/map110.crhm" music_file="media/mapmusic/1" gamecamera = "fxg" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+	<map id="201" file="scene/201" mskfile="clientmap/map201.msk"  hdtfile="clientmap/map201.crhm" gamecamera = "com"  min="-231" max="485">
+	    <camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>	
+    <map id="202" file="scene/202" mskfile="clientmap/map202.msk"  hdtfile="clientmap/map202.crhm" gamecamera = "com"  min="679" max="2620">
+	    <camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>		
+	<map id="333" file="scene/333" mskfile="clientmap/map1.msk"  hdtfile="clientmap/map1.crhm" gamecamera = "com"  min="-1224" max="971"> 
+		    <camera   rx="45"  ry="45" rz="0"  fview="30"   x="-7.25"  y="10.98"  z="-7.3"/>
+	</map>
+    <map id="495" file="scene/495" mskfile="clientmap/map495.msk" hdtfile="clientmap/map495.crhm" music_file="media/mapmusic/aren" gamecamera = "mjjd" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="496" file="scene/496" mskfile="clientmap/map496.msk" hdtfile="clientmap/map496.crhm" music_file="media/mapmusic/aren" gamecamera = "mjjd" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="497" file="scene/497" mskfile="clientmap/map497.msk" hdtfile="clientmap/map497.crhm" music_file="media/mapmusic/aren" gamecamera = "mjjd" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="498" file="scene/498" mskfile="clientmap/map498.msk" hdtfile="clientmap/map498.crhm" music_file="media/mapmusic/aren" gamecamera = "mjjd" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+    <map id="500" file="scene/500" mskfile="clientmap/map500.msk" hdtfile="clientmap/map500.crhm" music_file="media/mapmusic/aren" gamecamera = "bwc" hdt_z="0.7" min="-1043.25" max="558.151" >
+	    <camera   rx="45"  ry="225" rz="0"  fview="30"   x="7.25"  y="10.98"  z="7.3"/>
+	</map>
+
+</Data>

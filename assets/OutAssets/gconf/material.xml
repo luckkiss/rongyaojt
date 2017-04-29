@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- 材质  -->
+	<mtrl id="PD_DZ_Feicui4">
+		<!-- file: 材质使用的shader，必须放在Resources目录中，不需要填扩展名, 若不改变shader文件则不要加此属性段!  -->
+		<!-- 下划线开头的字段为shader属性配置: -->
+		<!-- 贴图属性: _MainTex="texs/tex1"-->
+		<!-- 普通数值/向量属性: _Para1="1.5" _Para2="1.5, 1.5, 1.5, 1.5"-->
+		<!-- 颜色属性: _Color1="255,255,255" -->
+		<method id="Strengthen_5" file="shaders/MUPCShader" _MainTex="shaders/PD_ZS_Feicui" _MaskTex="shaders/PD_ZS_Feicui_E" _SpeInt="0.5" _SpePow="4.0" _RimColor="(0,150,255)" _RimScale="2.0" _Rimpow="0.6" _Movekind="1.5" _MoveColor01="(0,255,0)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+	
+<!-- 黄色 -->
+	<mtrl id="yellow_1">
+		<method id="Strengthen_1" _RimColor="(100,40,0)" _Movekind="0.0" _MoveColor01="(255,255,255)" _MoveScale01="0.0" _MoveSpeed01="0.0" _MoveColor02="(255,255,255)" _MoveScale02="0.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+	
+	<mtrl id="yellow_2">
+		<method id="Strengthen_2" _RimColor="(100,40,0)" _Movekind="0.0" _MoveColor01="(255,0,0)" _MoveScale01="5.0" _MoveSpeed01="0.1" _MoveColor02="(0,0,255)" _MoveScale02="5.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+
+	<mtrl id="yellow_3">
+		<method id="Strengthen_3" _RimColor="(100,40,0)" _Movekind="0.75" _MoveColor01="(255,230,0)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+	<mtrl id="yellow_4">
+		<method id="Strengthen_4" _RimColor="(100,40,0)" _Movekind="0.75" _MoveColor01="(255,230,0)" _MoveScale01="7.0" _MoveSpeed01="0.4" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+
+	<mtrl id="yellow_5">
+		<method id="Strengthen_5" _RimColor="(100,40,0)" _Movekind="1.5" _MoveColor01="(255,230,0)" _MoveScale01="10.0" _MoveSpeed01="0.6" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+	
+<!-- 红色 -->
+	<mtrl id="red_1">
+		<method id="Strengthen_1" _RimColor="(100,0,100)" _Movekind="0.0" _MoveColor01="(255,255,255)" _MoveScale01="0.0" _MoveSpeed01="0.0" _MoveColor02="(255,255,255)" _MoveScale02="0.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+	
+	<mtrl id="red_2">
+		<method id="Strengthen_2" _RimColor="(100,0,100)" _Movekind="0.0" _MoveColor01="(255,0,0)" _MoveScale01="5.0" _MoveSpeed01="0.1" _MoveColor02="(0,0,255)" _MoveScale02="5.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+
+	<mtrl id="red_3">
+		<method id="Strengthen_3" _RimColor="(100,0,100)" _Movekind="0.75" _MoveColor01="(255,40,0)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+	<mtrl id="red_4">
+		<method id="Strengthen_4" _RimColor="(100,0,100)" _Movekind="0.75" _MoveColor01="(255,40,0)" _MoveScale01="7.0" _MoveSpeed01="0.4" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+
+	<mtrl id="red_5">
+		<method id="Strengthen_5" _RimColor="(100,0,100)" _Movekind="1.5" _MoveColor01="(255,40,0)" _MoveScale01="10.0" _MoveSpeed01="0.6" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+	
+<!-- 蓝色 -->
+		<mtrl id="blue_1">
+		<method id="Strengthen_1" _RimColor="(0,100,100)" _Movekind="0.0" _MoveColor01="(255,255,255)" _MoveScale01="0.0" _MoveSpeed01="0.0" _MoveColor02="(255,255,255)" _MoveScale02="0.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+	
+	<mtrl id="blue_2">
+		<method id="Strengthen_2"  _RimColor="(0,100,100)" _Movekind="0.0" _MoveColor01="(255,0,0)" _MoveScale01="5.0" _MoveSpeed01="0.1" _MoveColor02="(0,0,255)" _MoveScale02="5.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+
+	<mtrl id="blue_3">
+		<method id="Strengthen_3"  _RimColor="(0,100,100)" _Movekind="0.75" _MoveColor01="(0,160,255)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+	<mtrl id="blue_4">
+		<method id="Strengthen_4"  _RimColor="(0,100,100)" _Movekind="0.75" _MoveColor01="(0,160,255)" _MoveScale01="7.0" _MoveSpeed01="0.4" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+
+	<mtrl id="blue_5">
+		<method id="Strengthen_5"  _RimColor="(0,100,100)" _Movekind="1.5" _MoveColor01="(0,160,255)" _MoveScale01="10.0" _MoveSpeed01="0.6" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+	
+<!-- 绿色 -->
+		<mtrl id="green_1">
+		<method id="Strengthen_1"  _RimColor="(0,50,100)" _Movekind="0.0" _MoveColor01="(255,255,255)" _MoveScale01="0.0" _MoveSpeed01="0.0" _MoveColor02="(255,255,255)" _MoveScale02="0.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+	
+	<mtrl id="green_2">
+		<method id="Strengthen_2" _RimColor="(0,50,100)" _Movekind="0.0" _MoveColor01="(255,0,0)" _MoveScale01="5.0" _MoveSpeed01="0.1" _MoveColor02="(0,0,255)" _MoveScale02="5.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+
+	<mtrl id="green_3">
+		<method id="Strengthen_3" _RimColor="(0,50,100)" _Movekind="0.75" _MoveColor01="(0,255,0)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+	<mtrl id="green_4">
+		<method id="Strengthen_4" _RimColor="(0,50,100)" _Movekind="0.75" _MoveColor01="(0,255,0)" _MoveScale01="7.0" _MoveSpeed01="0.4" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+
+	<mtrl id="green_5">
+		<method id="Strengthen_5" _RimColor="(0,50,100)" _Movekind="1.5" _MoveColor01="(0,255,0)" _MoveScale01="10.0" _MoveSpeed01="0.5" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+	
+
+	
+	<!-- 紫色 -->
+			<mtrl id="purple_1">
+		<method id="Strengthen_1" _RimColor="(0,50,100)" _Movekind="0.0" _MoveColor01="(255,255,255)" _MoveScale01="0.0" _MoveSpeed01="0.0" _MoveColor02="(255,255,255)" _MoveScale02="0.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+	
+	<mtrl id="purple_2">
+		<method id="Strengthen_2" _RimColor="(0,50,100)" _Movekind="0.0" _MoveColor01="(255,0,0)" _MoveScale01="5.0" _MoveSpeed01="0.1" _MoveColor02="(0,0,255)" _MoveScale02="5.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+
+	<mtrl id="purple_3">
+		<method id="Strengthen_3" _RimColor="(0,50,100)" _Movekind="0.75" _MoveColor01="(125,0,255)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+	<mtrl id="purple_4">
+		<method id="Strengthen_4" _RimColor="(0,50,100)" _Movekind="0.75" _MoveColor01="(125,0,255)" _MoveScale01="7.0" _MoveSpeed01="0.4" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+
+	<mtrl id="purple_5">
+		<method id="Strengthen_5" _RimColor="(0,50,100)" _Movekind="1.5" _MoveColor01="(125,0,255)" _MoveScale01="10.0" _MoveSpeed01="0.6" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+	
+	<!-- 黄绿 -->
+			<mtrl id="yellowgreen_1">
+		<method id="Strengthen_1" _RimColor="(180,180,160)" _Movekind="0.0" _MoveColor01="(255,255,255)" _MoveScale01="0.0" _MoveSpeed01="0.0" _MoveColor02="(255,255,255)" _MoveScale02="0.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+	
+	<mtrl id="yellowgreen_2">
+		<method id="Strengthen_2" _RimColor="(180,180,160)" _Movekind="0.0" _MoveColor01="(255,0,0)" _MoveScale01="5.0" _MoveSpeed01="0.1" _MoveColor02="(0,0,255)" _MoveScale02="5.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+
+	<mtrl id="yellowgreen_3">
+		<method id="Strengthen_3" _RimColor="(180,180,160)" _Movekind="0.75" _MoveColor01="(215,255,0)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+	<mtrl id="yellowgreen_4">
+		<method id="Strengthen_4" _RimColor="(180,180,160)" _Movekind="0.75" _MoveColor01="(215,255,0)" _MoveScale01="7.0" _MoveSpeed01="0.4" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+
+	<mtrl id="yellowgreen_5">
+		<method id="Strengthen_5" _RimColor="(180,180,160)" _Movekind="1.5" _MoveColor01="(215,255,0)" _MoveScale01="10.0" _MoveSpeed01="0.6" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+	
+	<!-- 粉红色 -->
+			<mtrl id="pink_1">
+		<method id="Strengthen_1" _RimColor="(100,10,100)" _Movekind="0.0" _MoveColor01="(255,255,255)" _MoveScale01="0.0" _MoveSpeed01="0.0" _MoveColor02="(255,255,255)" _MoveScale02="0.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+	
+	<mtrl id="pink_2">
+		<method id="Strengthen_2" _RimColor="(100,10,100)" _Movekind="0.0" _MoveColor01="(255,0,0)" _MoveScale01="5.0" _MoveSpeed01="0.1" _MoveColor02="(0,0,255)" _MoveScale02="5.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+
+	<mtrl id="pink_3">
+		<method id="Strengthen_3" _RimColor="(100,10,100)" _Movekind="0.75" _MoveColor01="(255,0,255)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+	<mtrl id="pink_4">
+		<method id="Strengthen_4" _RimColor="(100,10,100)" _Movekind="0.75" _MoveColor01="(255,0,255)" _MoveScale01="7.0" _MoveSpeed01="0.4" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+
+	<mtrl id="pink_5">
+		<method id="Strengthen_5" _RimColor="(100,10,100)" _Movekind="1.5" _MoveColor01="(255,0,255)" _MoveScale01="10.0" _MoveSpeed01="0.6" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+	
+	<!-- 橙色 -->
+		<mtrl id="orange_1">
+		<method id="Strengthen_1" _RimColor="(100,10,100)" _Movekind="0.0" _MoveColor01="(255,255,255)" _MoveScale01="0.0" _MoveSpeed01="0.0" _MoveColor02="(255,255,255)" _MoveScale02="0.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+	
+	<mtrl id="orange_2">
+		<method id="Strengthen_2" _RimColor="(100,10,100)" _Movekind="0.0" _MoveColor01="(255,0,0)" _MoveScale01="5.0" _MoveSpeed01="0.1" _MoveColor02="(0,0,255)" _MoveScale02="5.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+
+	<mtrl id="orange_3">
+		<method id="Strengthen_3" _RimColor="(100,10,100)" _Movekind="0.75" _MoveColor01="(255,100,0)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+	<mtrl id="orange_4">
+		<method id="Strengthen_4" _RimColor="(100,10,100)" _Movekind="0.75" _MoveColor01="(255,100,0)" _MoveScale01="7.0" _MoveSpeed01="0.4" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+
+	<mtrl id="orange_5">
+		<method id="Strengthen_5" _RimColor="(100,10,100)" _Movekind="1.5" _MoveColor01="(255,100,0)" _MoveScale01="10.0" _MoveSpeed01="0.6" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+	
+<!-- 白红 -->	
+		<mtrl id="whitered_1">
+		<method id="Strengthen_1" _RimColor="(100,10,100)" _Movekind="0.0" _MoveColor01="(255,255,255)" _MoveScale01="0.0" _MoveSpeed01="0.0" _MoveColor02="(255,255,255)" _MoveScale02="0.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+	
+	<mtrl id="whitered_2">
+		<method id="Strengthen_2" _RimColor="(100,10,100)" _Movekind="0.0" _MoveColor01="(255,0,0)" _MoveScale01="5.0" _MoveSpeed01="0.1" _MoveColor02="(0,0,255)" _MoveScale02="5.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+
+	<mtrl id="whitered_3">
+		<method id="Strengthen_3" _RimColor="(100,10,100)" _Movekind="0.75" _MoveColor01="(255,100,100)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+	<mtrl id="whitered_4">
+		<method id="Strengthen_4" _RimColor="(100,10,100)" _Movekind="0.75" _MoveColor01="(255,100,100)" _MoveScale01="7.0" _MoveSpeed01="0.4" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+
+	<mtrl id="whitered_5">
+		<method id="Strengthen_5" _RimColor="(100,10,100)" _Movekind="1.5" _MoveColor01="(255,100,100)" _MoveScale01="10.0" _MoveSpeed01="0.6" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+	
+	<!--青绿-->
+		<mtrl id="qing_1">
+		<method id="Strengthen_1" _RimColor="(0,0,100)" _Movekind="0.0" _MoveColor01="(255,255,255)" _MoveScale01="0.0" _MoveSpeed01="0.0" _MoveColor02="(255,255,255)" _MoveScale02="0.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+	
+	<mtrl id="qing_2">
+		<method id="Strengthen_2" _RimColor="(0,0,100)" _Movekind="0.0" _MoveColor01="(255,0,0)" _MoveScale01="5.0" _MoveSpeed01="0.1" _MoveColor02="(0,0,255)" _MoveScale02="5.0" _MoveSpeed02="0.0"/>
+	</mtrl>
+
+	<mtrl id="qing_3">
+		<method id="Strengthen_3" _RimColor="(0,0,100)" _Movekind="0.75" _MoveColor01="(255,200,255)" _MoveScale01="5.0" _MoveSpeed01="0.2" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+	<mtrl id="qing_4">
+		<method id="Strengthen_4" _RimColor="(0,0,100)" _Movekind="0.75" _MoveColor01="(255,200,255)" _MoveScale01="7.0" _MoveSpeed01="0.4" _MoveColor02="(255,255,0)" _MoveScale02="0.0" _MoveSpeed02="0.2"/>
+	</mtrl>
+
+	<mtrl id="qing_5">
+		<method id="Strengthen_5" _RimColor="(0,0,100)" _Movekind="1.5" _MoveColor01="(255,200,255)" _MoveScale01="10.0" _MoveSpeed01="0.6" _MoveColor02="(130,255,255)" _MoveScale02="15.0" _MoveSpeed02="0.5"/>
+	</mtrl>
+</data>
+
+

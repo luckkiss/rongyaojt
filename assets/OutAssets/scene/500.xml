@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map id="">
+  <env>
+    <fog display="False" density="0.015" mode="ExponentialSquared" distBegin="0" distEnd="300">
+      <color r="0.22" g="0.196" b="0.447" a="1" />
+    </fog>
+    <amblight>
+      <color r="0.0" g="0.0" b="0.0" a="1" />
+    </amblight>
+	<Lightmap>
+      <asset file="scene/bwc_Scene/scene/LightmapFar-0" />
+    </Lightmap>
+	<!--<LightProbes>
+      <asset file="scene/bwc_Scene/LightProbes" />
+    </LightProbes>-->
+	<Skybox>
+      <asset file="null" />
+    </Skybox>
+  </env>
+  <Mesh id="500">
+    <asset file="scene/bwc_Scene/bwc_Scene2" />
+    <pos x="50" y="0" z="43" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+  </Mesh>
+</map>

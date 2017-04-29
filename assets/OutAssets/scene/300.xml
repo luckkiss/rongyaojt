@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map id="">
+  <env>
+    <fog display="True" density="0.015" mode="ExponentialSquared" distBegin="0" distEnd="300">
+      <color r="0.22" g="0.196" b="0.447" a="1" />
+    </fog>
+    <amblight>
+      <color r="0.0" g="0.0" b="0.0" a="1" />
+    </amblight>
+	<Lightmap>
+      <asset file="scene/Yzdl_Scene/LightmapFar-0" />
+	  <asset file="scene/Yzdl_Scene/LightmapFar-1" />
+    </Lightmap>
+	<LightProbes>
+      <asset file="scene/Yzdl_Scene/LightProbes" />
+    </LightProbes>
+	<Skybox>
+      <asset file="null" />
+    </Skybox>
+  </env>
+  <Mesh id="map1">
+    <asset file="scene/YZDL_Scene" />
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+  </Mesh>
+</map>

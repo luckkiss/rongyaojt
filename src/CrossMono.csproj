@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{C4E13AA0-38E4-4011-9EDF-2B4AF65DAFD3}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>CrossMono</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>..\assets\bin\Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="ICSharpCode.SharpZLib">
+      <HintPath>..\assets\bin\Data\Managed\ICSharpCode.SharpZLib.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\assets\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cross\ArrayUtil.cs" />
+    <Compile Include="Cross\BaseCrossPlugin.cs" />
+    <Compile Include="Cross\batchLoader.cs" />
+    <Compile Include="Cross\BitsArray.cs" />
+    <Compile Include="Cross\BoundBox.cs" />
+    <Compile Include="Cross\ByteArray.cs" />
+    <Compile Include="Cross\CCTime.cs" />
+    <Compile Include="Cross\ClassFactory.cs" />
+    <Compile Include="Cross\ClassIterator.cs" />
+    <Compile Include="Cross\ConfigLoadingData.cs" />
+    <Compile Include="Cross\ConfigManager.cs" />
+    <Compile Include="Cross\CrossApp.cs" />
+    <Compile Include="Cross\DebugTrace.cs" />
+    <Compile Include="Cross\Define.cs" />
+    <Compile Include="Cross\DynamicArray.cs" />
+    <Compile Include="Cross\Event.cs" />
+    <Compile Include="Cross\EventDisp.cs" />
+    <Compile Include="Cross\GraphManager.cs" />
+    <Compile Include="Cross\GRAvatarPart3D.cs" />
+    <Compile Include="Cross\GRBillboard.cs" />
+    <Compile Include="Cross\GRCamera3D.cs" />
+    <Compile Include="Cross\GRCharacter3D.cs" />
+    <Compile Include="Cross\GREffectKnifeLight3D.cs" />
+    <Compile Include="Cross\GREffectParticles3D.cs" />
+    <Compile Include="Cross\GREntity3D.cs" />
+    <Compile Include="Cross\GRLight3D.cs" />
+    <Compile Include="Cross\GRLightDir3D.cs" />
+    <Compile Include="Cross\GRLightPoint3D.cs" />
+    <Compile Include="Cross\GRMap3D.cs" />
+    <Compile Include="Cross\GRShader.cs" />
+    <Compile Include="Cross\GRStaticMesh3D.cs" />
+    <Compile Include="Cross\GRWorld3D.cs" />
+    <Compile Include="Cross\IAniBitmap.cs" />
+    <Compile Include="Cross\IAniMesh.cs" />
+    <Compile Include="Cross\IAppPlugin.cs" />
+    <Compile Include="Cross\IAsset.cs" />
+    <Compile Include="Cross\IAssetAniBitmap.cs" />
+    <Compile Include="Cross\IAssetAudio.cs" />
+    <Compile Include="Cross\IAssetBitmap.cs" />
+    <Compile Include="Cross\IAssetHeightMap.cs" />
+    <Compile Include="Cross\IAssetManager.cs" />
+    <Compile Include="Cross\IAssetMaterial.cs" />
+    <Compile Include="Cross\IAssetMesh.cs" />
+    <Compile Include="Cross\IAssetParticles.cs" />
+    <Compile Include="Cross\IAssetRenderTexture.cs" />
+    <Compile Include="Cross\IAssetShader.cs" />
+    <Compile Include="Cross\IAssetSkAnimation.cs" />
+    <Compile Include="Cross\IAssetSkAniMesh.cs" />
+    <Compile Include="Cross\IAssetTexture.cs" />
+    <Compile Include="Cross\IAudio.cs" />
+    <Compile Include="Cross\IBillboard.cs" />
+    <Compile Include="Cross\IBitmap.cs" />
+    <Compile Include="Cross\ICamera.cs" />
+    <Compile Include="Cross\IColliderMesh.cs" />
+    <Compile Include="Cross\IConnection.cs" />
+    <Compile Include="Cross\IConnectionEventHandler.cs" />
+    <Compile Include="Cross\IContainer2D.cs" />
+    <Compile Include="Cross\IContainer3D.cs" />
+    <Compile Include="Cross\ICrypt.cs" />
+    <Compile Include="Cross\IEffect.cs" />
+    <Compile Include="Cross\IEffectKnifeLight.cs" />
+    <Compile Include="Cross\IEffectParticles.cs" />
+    <Compile Include="Cross\IEnvironment.cs" />
+    <Compile Include="Cross\IGraphInterface.cs" />
+    <Compile Include="Cross\IGraphObject.cs" />
+    <Compile Include="Cross\IGraphObject2D.cs" />
+    <Compile Include="Cross\IGraphObject3D.cs" />
+    <Compile Include="Cross\IGraphScene.cs" />
+    <Compile Include="Cross\IGraphScene2D.cs" />
+    <Compile Include="Cross\IGraphScene3D.cs" />
+    <Compile Include="Cross\IGRAvatarPart.cs" />
+    <Compile Include="Cross\IGRCharacter.cs" />
+    <Compile Include="Cross\IGREffectKnifeLight.cs" />
+    <Compile Include="Cross\IGREffectParticles.cs" />
+    <Compile Include="Cross\IGREntity.cs" />
+    <Compile Include="Cross\IGRMap.cs" />
+    <Compile Include="Cross\IGRShader.cs" />
+    <Compile Include="Cross\IGRWorld.cs" />
+    <Compile Include="Cross\IHeightMap.cs" />
+    <Compile Include="Cross\ILight.cs" />
+    <Compile Include="Cross\ILightDir.cs" />
+    <Compile Include="Cross\ILightPoint.cs" />
+    <Compile Include="Cross\ILightSpot.cs" />
+    <Compile Include="Cross\ILineObject.cs" />
+    <Compile Include="Cross\ILocalStorage.cs" />
+    <Compile Include="Cross\IMediaInterface.cs" />
+    <Compile Include="Cross\IMediaObject.cs" />
+    <Compile Include="Cross\IMesh.cs" />
+    <Compile Include="Cross\INetInterface.cs" />
+    <Compile Include="Cross\IPackageCoder.cs" />
+    <Compile Include="Cross\IPHEntity.cs" />
+    <Compile Include="Cross\IPHMap.cs" />
+    <Compile Include="Cross\IPHWorld.cs" />
+    <Compile Include="Cross\IPhysicsInterface.cs" />
+    <Compile Include="Cross\IPhysicsObject.cs" />
+    <Compile Include="Cross\IPhysicsObject3D.cs" />
+    <Compile Include="Cross\IPhysicsScene.cs" />
+    <Compile Include="Cross\IPhysicsScene3D.cs" />
+    <Compile Include="Cross\IRenderTexture.cs" />
+    <Compile Include="Cross\IShader.cs" />
+    <Compile Include="Cross\IShaderInterface.cs" />
+    <Compile Include="Cross\ISkAniMesh.cs" />
+    <Compile Include="Cross\ISysInterface.cs" />
+    <Compile Include="Cross\IText.cs" />
+    <Compile Include="Cross\ITextInput.cs" />
+    <Compile Include="Cross\ITickProcessObject.cs" />
+    <Compile Include="Cross\IUIBase.cs" />
+    <Compile Include="Cross\IUIBaseButton.cs" />
+    <Compile Include="Cross\IUIBaseControl.cs" />
+    <Compile Include="Cross\IUIButton.cs" />
+    <Compile Include="Cross\IUICheckBox.cs" />
+    <Compile Include="Cross\IUICombobox.cs" />
+    <Compile Include="Cross\IUIContainer.cs" />
+    <Compile Include="Cross\IUIEditBox.cs" />
+    <Compile Include="Cross\IUIImageBox.cs" />
+    <Compile Include="Cross\IUIImageNum.cs" />
+    <Compile Include="Cross\IUIJoystick.cs" />
+    <Compile Include="Cross\IUIProgressBar.cs" />
+    <Compile Include="Cross\IUIRadioButton.cs" />
+    <Compile Include="Cross\IUIScrollBar.cs" />
+    <Compile Include="Cross\IUIScrollPanel.cs" />
+    <Compile Include="Cross\IUISelectList.cs" />
+    <Compile Include="Cross\IUISliderbar.cs" />
+    <Compile Include="Cross\IUISlidingFlips.cs" />
+    <Compile Include="Cross\IUISuperText.cs" />
+    <Compile Include="Cross\IUIText.cs" />
+    <Compile Include="Cross\IUITileList.cs" />
+    <Compile Include="Cross\IURLReq.cs" />
+    <Compile Include="Cross\Job.cs" />
+    <Compile Include="Cross\JobQueue.cs" />
+    <Compile Include="Cross\LanguagePack.cs" />
+    <Compile Include="Cross\LocalizeManager.cs" />
+    <Compile Include="Cross\Mat44.cs" />
+    <Compile Include="Cross\Match.cs" />
+    <Compile Include="Cross\MathUtil.cs" />
+    <Compile Include="Cross\MsgProcdures.cs" />
+    <Compile Include="Cross\MsgProcesser.cs" />
+    <Compile Include="Cross\NetConst.cs" />
+    <Compile Include="Cross\NetManager.cs" />
+    <Compile Include="Cross\os.cs" />
+    <Compile Include="Cross\PHColliderMesh.cs" />
+    <Compile Include="Cross\PHEntity3D.cs" />
+    <Compile Include="Cross\PHHeightMap.cs" />
+    <Compile Include="Cross\PHMap3D.cs" />
+    <Compile Include="Cross\PHWorld3D.cs" />
+    <Compile Include="Cross\PhysicsManager.cs" />
+    <Compile Include="Cross\Profiler.cs" />
+    <Compile Include="Cross\ProfilerManager.cs" />
+    <Compile Include="Cross\QS_ACT_STATE.cs" />
+    <Compile Include="Cross\Rect.cs" />
+    <Compile Include="Cross\RPCMsgProcesser.cs" />
+    <Compile Include="Cross\Session.cs" />
+    <Compile Include="Cross\SessionFuncMgr.cs" />
+    <Compile Include="Cross\StringTable.cs" />
+    <Compile Include="Cross\StringUtil.cs" />
+    <Compile Include="Cross\Style2D.cs" />
+    <Compile Include="Cross\tickobj.cs" />
+    <Compile Include="Cross\TickProcessArrayHost.cs" />
+    <Compile Include="Cross\TickProcessFunc.cs" />
+    <Compile Include="Cross\TPKGMsgProcesser.cs" />
+    <Compile Include="Cross\TZDate.cs" />
+    <Compile Include="Cross\UISkin.cs" />
+    <Compile Include="Cross\Variant.cs" />
+    <Compile Include="Cross\Vec2.cs" />
+    <Compile Include="Cross\Vec3.cs" />
+    <Compile Include="Cross\Vec4.cs" />
+    <Compile Include="Cross\_MsgProfiler.cs" />
+    <Compile Include="Cross\_MsgProfilerMgr.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

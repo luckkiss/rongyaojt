@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{FFEB875C-70E4-4B6B-8BC4-5EE396A7F9F8}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>CrossMonoUnityImpl</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.Core">
+      <HintPath>..\assets\bin\Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\assets\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cross\AniMeshImpl.cs" />
+    <Compile Include="Cross\AssetAniBitmapImpl.cs" />
+    <Compile Include="Cross\AssetAudioImpl.cs" />
+    <Compile Include="Cross\AssetBitmapImpl.cs" />
+    <Compile Include="Cross\AssetHeightMapImpl.cs" />
+    <Compile Include="Cross\AssetImpl.cs" />
+    <Compile Include="Cross\AssetManagerImpl.cs" />
+    <Compile Include="Cross\AssetMaterialImpl.cs" />
+    <Compile Include="Cross\AssetMeshImpl.cs" />
+    <Compile Include="Cross\AssetParticlesImpl.cs" />
+    <Compile Include="Cross\AssetRenderTextureImpl.cs" />
+    <Compile Include="Cross\AssetShaderImpl.cs" />
+    <Compile Include="Cross\AssetSkAnimationImpl.cs" />
+    <Compile Include="Cross\AssetSkAniMeshImpl.cs" />
+    <Compile Include="Cross\AssetTextureImpl.cs" />
+    <Compile Include="Cross\AudioImpl.cs" />
+    <Compile Include="Cross\BillboardImpl.cs" />
+    <Compile Include="Cross\CameraImpl.cs" />
+    <Compile Include="Cross\CircularBuffer.cs" />
+    <Compile Include="Cross\ColliderMeshImpl.cs" />
+    <Compile Include="Cross\ConnectionImpl.cs" />
+    <Compile Include="Cross\Container3DImpl.cs" />
+    <Compile Include="Cross\CryptImpl.cs" />
+    <Compile Include="Cross\DownerBehavior.cs" />
+    <Compile Include="Cross\DownerJob.cs" />
+    <Compile Include="Cross\DownLoadURLImpl.cs" />
+    <Compile Include="Cross\EffectImpl.cs" />
+    <Compile Include="Cross\EffectKnifeLightImpl.cs" />
+    <Compile Include="Cross\EffectParticlesImpl.cs" />
+    <Compile Include="Cross\EnvironmentImpl.cs" />
+    <Compile Include="Cross\GraphObject3DImpl.cs" />
+    <Compile Include="Cross\GraphObjectImpl.cs" />
+    <Compile Include="Cross\GraphScene3DImpl.cs" />
+    <Compile Include="Cross\GraphSceneImpl.cs" />
+    <Compile Include="Cross\HeightMapImpl.cs" />
+    <Compile Include="Cross\LightDirImpl.cs" />
+    <Compile Include="Cross\LightImpl.cs" />
+    <Compile Include="Cross\LightPointImpl.cs" />
+    <Compile Include="Cross\LightSpotImpl.cs" />
+    <Compile Include="Cross\LoaderBehavior.cs" />
+    <Compile Include="Cross\LoaderJob.cs" />
+    <Compile Include="Cross\LocalStorageImpl.cs" />
+    <Compile Include="Cross\MediaInterfaceImpl.cs" />
+    <Compile Include="Cross\MediaObjectImpl.cs" />
+    <Compile Include="Cross\MeshImpl.cs" />
+    <Compile Include="Cross\NetInterfaceImpl.cs" />
+    <Compile Include="Cross\Object3DBehaviour.cs" />
+    <Compile Include="Cross\OsBehaviour.cs" />
+    <Compile Include="Cross\osImpl.cs" />
+    <Compile Include="Cross\PackageCoderImpl.cs" />
+    <Compile Include="Cross\PCTrailPoint.cs" />
+    <Compile Include="Cross\PCTrailRendererData.cs" />
+    <Compile Include="Cross\PhysicsInterfaceImpl.cs" />
+    <Compile Include="Cross\PhysicsObject3DImpl.cs" />
+    <Compile Include="Cross\PhysicsObjectImpl.cs" />
+    <Compile Include="Cross\PhysicsScene3DImpl.cs" />
+    <Compile Include="Cross\PhysicsSceneImpl.cs" />
+    <Compile Include="Cross\ShaderImpl.cs" />
+    <Compile Include="Cross\ShaderInterfaceImpl.cs" />
+    <Compile Include="Cross\SkAniMeshBehaviour.cs" />
+    <Compile Include="Cross\SkAniMeshImpl.cs" />
+    <Compile Include="Cross\SysInterfaceImpl.cs" />
+    <Compile Include="Cross\Trail.cs" />
+    <Compile Include="Cross\TrailRenderer_Base.cs" />
+    <Compile Include="Cross\URLReqImpl.cs" />
+    <Compile Include="OneAB_Info.cs" />
+    <Compile Include="OutAssetsMgr.cs" />
+    <Compile Include="OUTASSETS_LOAD_STEP.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CrossMono.csproj">
+      <Project>{c4e13aa0-38e4-4011-9edf-2b4af65dafd3}</Project>
+      <Name>CrossMono</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

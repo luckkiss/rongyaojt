@@ -1,0 +1,876 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>	
+	<!--角色头顶信息显示-->
+	<chatitle tp="name" ori="0" applyoff="true">
+		<show id="0" tp="txt" style="chaname">
+			<fmt color="0xffffff" size="20"/>
+		</show>
+		<show id="1" tp="txt" style="chaname">
+			<fmt color="0xffcc00" size="20" bold="true"/>
+		</show>	
+		<show id="2" tp="txt" style="chaname">
+			<fmt color="0x9900cc" size="20" bold="true"/>
+		</show>	
+		<show id="3" tp="txt" style="chaname">
+			<fmt color="0xff0000" size="20"/>
+		</show>
+		<show id="4" tp="txt" style="chaname">
+			<fmt color="0x00ff00" size="20"/>
+		</show>
+	</chatitle>
+	<chatitle tp="nobname" ori="3" idx="0" sp="0" applyoff="true">
+		<show id="0" tp="txt" style="chaname">
+		</show>
+	</chatitle>
+	<chatitle tp="tranlive" ori="1" idx="0" sp="0" applyoff="true">
+		<show id="0" tp="txt" style="chaname">
+		</show>
+	</chatitle>
+	<chatitle tp="bslvl" ori="1" idx="0" sp="0" applyoff="true">
+		<show id="0" tp="txt" style="chaname">
+			<fmt color="0xffffff" size="20"/>
+		</show>
+	</chatitle>
+	<chatitle tp="clannm" ori="3" idx="1" sp="0" applyoff="true">
+		<show id="0" tp="txt" style="chaname">
+			<fmt color="0x54b6e5" size="20"/>
+		</show>
+	</chatitle>
+	<chatitle tp="vipname" ori="1" idx="1" applyoff="true">
+		<show id="0" tp="img" res="uires/res/mainui_chat/vip_ls.png"/>
+		<show id="1" tp="img" res="uires/res/mainui_chat/vip"/>
+		<show id="2" tp="img" res="uires/res/mainui_chat/vip_zs"/>
+	</chatitle>
+	<chatitle tp="pvipname" ori="1" idx="1" applyoff="true">
+		<show id="0" tp="img" res="uires/res/vip/pvip1"/>
+		<show id="1" tp="img" res="uires/res/vip/pvip2"/>
+		<show id="2" tp="img" res="uires/res/vip/pvip3"/>
+		<show id="3" tp="img" res="uires/res/vip/pvip4"/>
+		<show id="4" tp="img" res="uires/res/vip/pvip5"/>
+		<show id="5" tp="img" res="uires/res/vip/pvip6"/>
+		<show id="6" tp="img" res="uires/res/vip/pvip7"/>
+		<show id="7" tp="img" res="uires/res/vip/pvip8"/>
+	</chatitle>
+	<chatitle tp="ypvip" ori="1" idx="2" applyoff="true">
+		<show id="0" tp="img" res="uires/cn_res/vip/pkg_pvip_1/pvip0"/>
+	</chatitle>
+	<chatitle tp="team" ori="1" idx="1" applyoff="true">
+		<show id="0" tp="img" res="uires/res/team/team" />
+		<show id="1" tp="img" res="uires/res/team/teammate" />
+	</chatitle>
+	
+	<chatitle tp="sideicon" ori="1" idx="1" applyoff="true">
+		<show id="0" tp="img" res="uires/res/sideicon/side_enemy" />
+		<show id="1" tp="img" res="uires/res/sideicon/side_friend" />
+	</chatitle>
+	<chatitle tp="lvltitle" ori="3" idx="5" applyoff="true">
+		<show id="0" tp="ani" res="uires/cn_res/eff/paodian" sptm="1" />
+		<show id="1" tp="ani" res="uires/cn_res/eff/paodian" sptm="1" />
+	</chatitle>
+	<chatitle tp="citywaricon" ori="1" idx="1" applyoff="true">
+		<show id="0" tp="img" res="uires/res/citywaricon/side_def" />
+		<show id="1" tp="img" res="uires/res/citywaricon/side_atk" />
+	</chatitle>
+	
+	<chatitle tp="achive" ori="3" idx="3" applyoff="true" sp="-3" sort="105,106,107,108,109,110,111,112,113,114,115,116,117,100,998,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,154,155">
+		<show id="105" tp="ani" res="uires/cn_res/eff/rowland_title_2" sptm="1" />
+		<show id="106" tp="ani" res="uires/cn_res/eff/ayzs" sptm="1" />
+		<show id="107" tp="ani" res="uires/cn_res/eff/kingofpkeff" sptm="1"/>
+		<show id="108" tp="ani" res="uires/cn_res/eff/firstzs" sptm="1"/>
+		<show id="109" tp="ani" res="uires/cn_res/eff/firstfs" sptm="1"/>
+		<show id="110" tp="ani" res="uires/cn_res/eff/firstgs" sptm="1"/>
+		<show id="111" tp="ani" res="uires/cn_res/eff/firstmj" sptm="1"/>
+		<show id="112" tp="ani" res="uires/cn_res/eff/firstsd" sptm="1"/>
+		<show id="100" tp="ani" res="uires/cn_res/eff/vip" sptm="1"/>
+		<show id="998" tp="ani" res="uires/cn_res/eff/ceshi" sptm="1"/>
+		<show id="113" tp="ani" res="uires/cn_res/eff/sctz" sptm="1"/>
+		<show id="114" tp="ani" res="uires/cn_res/eff/ytlxg" sptm="1"/>
+		<show id="115" tp="ani" res="uires/cn_res/eff/qdd" sptm="1"/>
+		<show id="116" tp="ani" res="uires/cn_res/eff/th" sptm="1"/>
+		<show id="117" tp="ani" res="uires/cn_res/eff/swlr" sptm="1"/>
+		<show id="134" tp="ani" res="uires/cn_res/eff/daihao" sptm="1"/>
+		<show id="135" tp="ani" res="uires/cn_res/eff/happy_gq" sptm="1"/>
+		<show id="136" tp="ani" res="uires/cn_res/eff/aydr" sptm="1"/>
+		<show id="137" tp="ani" res="uires/cn_res/eff/dsgz" sptm="1"/>
+		<show id="138" tp="ani" res="uires/cn_res/eff/ayst" sptm="1"/>
+		<show id="139" tp="ani" res="uires/cn_res/eff/aybz" sptm="1"/>
+		<show id="140" tp="ani" res="uires/cn_res/eff/sczh" sptm="1"/>
+		<show id="141" tp="ani" res="uires/cn_res/eff/scld" sptm="1"/>
+		<show id="142" tp="ani" res="uires/cn_res/eff/scbx" sptm="1"/>
+		<show id="143" tp="ani" res="uires/cn_res/eff/scll" sptm="1"/>
+		<show id="144" tp="ani" res="uires/cn_res/eff/sdch1" sptm="1"/>
+		<show id="146" tp="ani" res="uires/cn_res/eff/happlenewyear" sptm="1"/>
+		<show id="147" tp="ani" res="uires/cn_res/eff/ljcz" sptm="1"/>
+		<show id="148" tp="ani" res="uires/cn_res/eff/ljcz1" sptm="1"/>
+		<show id="149" tp="ani" res="uires/cn_res/eff/lbz" sptm="1"/>
+		<show id="151" tp="ani" res="uires/cn_res/eff/rose" sptm="1"/>
+		<show id="152" tp="ani" res="uires/cn_res/eff/love" sptm="1"/>
+		<show id="154" tp="ani" res="uires/cn_res/eff/sanyang" sptm="1"/>
+		<show id="155" tp="ani" res="uires/cn_res/eff/yuanxiao" sptm="1"/>
+	</chatitle>
+	<chatitle tp="npcTitle" ori="3" idx="2" applyoff="true" sp="4" sort="220,208,206,207,229,222,210,209,250,251,252">
+		<show id="220" tp="ani" res="uires/res/eff/xscb" sptm="0" />
+		<!-- <show id="208" tp="ani" res="uires/res/eff/swly" sptm="0"/> -->
+		<show id="206" tp="ani" res="uires/res/eff/pkzw" sptm="0"/>
+		<!-- <show id="207" tp="ani" res="uires/res/eff/hjywc" sptm="0"/> -->
+		<show id="229" tp="ani" res="uires/res/eff/zyz" sptm="0"/>
+		<show id="222" tp="ani" res="uires/res/eff/gcz" sptm="0"/>
+		<!-- <show id="210" tp="ani" res="uires/res/eff/mjgc" sptm="0"/> -->
+		<!-- <show id="209" tp="ani" res="uires/res/eff/mwrq" sptm="0"/> -->
+		<show id="250" tp="ani" res="uires/res/eff/txdy" sptm="0"/>
+		<show id="251" tp="ani" res="uires/res/eff/txdy" sptm="0"/>
+		<show id="252" tp="ani" res="uires/res/eff/txdy" sptm="0"/>
+		
+		<show id="1" tp="ani" res="uires/res/eff/npctitle_equip" sptm="0" />
+		<show id="2" tp="ani" res="uires/res/eff/npctitle_shield" sptm="0"/>
+		<show id="3" tp="ani" res="uires/res/eff/npctitle_sundry" sptm="0"/>
+		<show id="4" tp="ani" res="uires/res/eff/npctitle_medici" sptm="0"/>
+		<show id="5" tp="ani" res="uires/res/eff/npctitle_mis1" sptm="0"/>
+		<show id="6" tp="ani" res="uires/res/eff/npctitle_mis2" sptm="0"/>
+		<show id="7" tp="ani" res="uires/res/eff/npctitle_mis3" sptm="0"/>
+	</chatitle>
+	<chatitle tp="dropitem">
+		<show id="0" tp="txt" style="chaname">
+			<fmt font="Arial" color="0xffffff" size="20" bg="true" bgColor="0x000000"/>
+		</show>
+	</chatitle>
+	<chatitle tp="mapUtility">
+		<show id="0" tp="txt" style="chaname">
+			<fmt font="Arial" color="0xffffff" size="20" bg="true" bgColor="0x000000"/>
+		</show>
+	</chatitle>
+	<chatitle tp="smapUtility">
+		<show id="0" tp="txt" style="chaname">
+			<fmt font="Arial" color="0x00ff00" size="20" bg="true" bgColor="0x000000"/>
+		</show>
+	</chatitle>
+	<chatitle tp="chatface" ori="3" idx="7" applyoff="true"><!-- 表情 -->
+		<show id="0" tp="ani" playtm="10000"/><!--playtm 播放时间-->
+	</chatitle>	
+	<chatitle tp="whisper" ori="3" idx="6" applyoff="true"><!-- 文字气泡 -->
+		<show id="0" tp="chat" style="whisper" tm="10000" res="uires/res/comimg/bubble/bubble" >
+			<fmt color="0xffffff" size="20" align="2"/>
+			<textprop multiline="true" wordWrap="true" autosize="center" width="200" height="40"/>
+			<imgprop width="200" height="40" dev="30"/>
+			<uv x="0" y="0" w="200" h="49"/>
+			<g9 x="10" y="10" w="180" h="20"/>
+		</show>
+	</chatitle>	
+	<!--默认形象-->
+	<chagrd tp="defman" showtp="img" res="uires/res/img/player"/>
+	
+	<chadyn tp="hpani">
+		<show id="0" tp="txt" style="chaname">
+			<fmt color="0x99ff00" size="18" bold="true"/>
+		</show> 
+		<show id="1" tp="txt" style="chaname">
+			<fmt color="0x0033ee" size="18" bold="true"/>
+		</show>
+		<show id="2" tp="numimg" imageNum="textToimgMiss"/>
+		<show id="3" tp="txt" style="chaname">
+			<fmt color="0x11ee22" size="18" bold="true"/>
+		</show>
+		
+		<show id="4" tp="numimg" imageNum="textToimgRed"/>
+		<show id="5" tp="numimg" imageNum="textToimgBlue"/>
+		<show id="6" tp="numimg" imageNum="textToimgGreen"/>
+		
+		<show id="7" tp="txt" style="chaname">
+			<fmt color="0x44db02" size="18" bold="true"/>
+		</show>
+		<show id="8" tp="numimg" imageNum="textToimgYellow" />
+		<show id="9" tp="numimg" imageNum="textToimgReds"/>
+		<show id="10" tp="numimg" imageNum="textToimgPurple"/>
+		<show id="11" tp="numimg" imageNum="textToimgS"/>
+		<ani tp="0" dtm="0" ttm="1500" scaletm_b="100" scaletm_s="300" alphatm="300" />
+		<ani tp="1" dtm="0" ttm="1500" stop_s="800" stop_ttm="400" alphatm="300" distance="240"/>
+	</chadyn>
+	<chabar tp="dp" posx="36">
+		<show id="barbg" idx="0" tp="img" width="72" offx="0" offy="0" height="9" layer="0" res="uires/res/comimg/bg" />
+		<show id="bar0" idx="1" tp="progress" width="60" offx="6" offy="2" height="5" layer="1" res="uires/res/comimg/r" />
+		<!--<show id="bg" idx="3" tp="img" width="72" offx="0" height="9" layer="0" res="uires/res/comimg/bg" />
+		<show id="ani0" idx="4" tp="img" width="60" offx="6" offy="2" height="5" layer="1" res="uires/res/comimg/d" />
+		<show id="bar1" idx="5" tp="img" width="60" offx="6" offy="2" height="5" layer="2" res="uires/res/comimg/r" />-->
+		<ani tp="0" dtm="0" ttm="400"/>
+	</chabar>
+	<!-- ui配置 -->
+	<uiprop id="mdlg_package" load_ui="true" scaleX="1" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	
+	<uiprop id="mdlg_compose" load_ui="true" scaleX="1" openeff="openEff:mdlg_compose" closeeff="closeEff:mdlg_compose" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mu_chat" load_ui="true" scaleX="1" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_transcript" load_ui="true" scaleX="1" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_missionDetail" opensound="ui_open_1" scaleX="1" closesound="ui_close_1" keyclose="true"/>
+ 
+	<uiprop id="mdlg_redpacket_give"  scaleX="1" openeff="openEff:mdlg_redpacket" closeeff="closeEff:mdlg_redpacket" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_redpacket_get"  scaleX="1"  opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_loginaward" scaleX="1" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_business" keyclose="true" scaleX="1" />
+	<uiprop id="mdlg_marketbuy" keyclose="true"/>
+	<uiprop id="mdlg_batchSell" keyclose="true" scaleX="1" />
+	<uiprop id="mdlg_randshop" scaleX="1" openeff="openEff:mdlg_randshop" closeeff="closeEff:mdlg_randshop" keyclose="true"/>
+	<uiprop id="mdlg_warehouse" scaleX="1" keyclose="true"/>
+
+	<uiprop id="mdlg_mail" load_ui="true"  scaleX="1" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_smithy" load_ui="true"  scaleX="1" openeff="openEff:mdlg_smithy" closeeff="closeEff:mdlg_smithy" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_league" load_ui="true"  openeff="openEff:mdlg_league" closeeff="closeEff:mdlg_league" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_shop" load_ui="true" scaleX="1" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_chainfo" load_ui="true" scaleX="1" openeff="openEff:mdlg_chainfo" closeeff="closeEff:mdlg_chainfo" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mu_worldmap" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_mission" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_cityWarFace" load_ui="true" openeff="openEff:mdlg_cityWarFace" closeeff="closeEff:mdlg_cityWarFace" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_script_activity" openeff="openEff:mdlg_script_activity" closeeff="closeEff:mdlg_script_activity" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_system" load_ui="true" scaleX="1" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_team" scaleX="1" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_friendNew" scaleX="1" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_market" scaleX="1" load_ui="true" openeff="openEff:mdlg_market" closeeff="closeEff:mdlg_market" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_vip" load_ui="true" scaleX="1" openeff="openEff:mdlg_vip" closeeff="closeEff:mdlg_vip" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_welfare" load_ui="true" scaleX="1" openeff="openEff:mdlg_welfare" closeeff="closeEff:mdlg_welfare" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_kfactivity" load_ui="true" scaleX="1" openeff="openEff:mdlg_kfactivity" closeeff="closeEff:mdlg_kfactivity" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_lottery" load_ui="true" scaleX="1"  openeff="openEff:mdlg_lottery" closeeff="closeEff:mdlg_lottery" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_chargeback" load_ui="true" scaleX="1" openeff="openEff:mdlg_chargeback" closeeff="closeEff:mdlg_chargeback" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_worldline" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_rank" load_ui="true" scaleX="1" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_worldmap" load_ui="true" scaleX="1" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_starmap" load_ui="true" openeff="openEff:mdlg_starmap" closeeff="closeEff:mdlg_starmap" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	
+	<uiprop id="mdlg_mobilegift" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_microload" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_playerguide" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_accountsafe" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mu_accountprotect" load_ui="true" opensound="ui_open_1" closesound="ui_close_1" keyclose="true"/>
+	
+	<uiprop id="mdlg_msgboxinput" keyclose="true"/>
+	<uiprop id="mdlg_achievement" openeff="openEff:mdlg_achievement" closeeff="closeEff:mdlg_achievement" keyclose="true"/>
+	<uiprop id="mdlg_activity_light_lantern" openeff="openEff:mdlg_activity_light_lantern" closeeff="closeEff:mdlg_activity_light_lantern" keyclose="true"/>
+	<uiprop id="mdlg_bfactivity" openeff="openEff:mdlg_bfactivity" closeeff="closeEff:mdlg_bfactivity" keyclose="true"/>
+	<uiprop id="mdlg_hfactivity" openeff="openEff:mdlg_hfactivity" closeeff="closeEff:mdlg_hfactivity" keyclose="true"/>
+	<uiprop id="mdlg_bless" keyclose="true"/>
+	<uiprop id="mdlg_broadcast" keyclose="true"/>
+	<uiprop id="mdlg_callbackBuyitem" keyclose="true"/>
+	<uiprop id="mdlg_addpointprompt" keyclose="true"/>
+	<uiprop id="mdlg_campaward" keyclose="true"/>
+	<uiprop id="mdlg_campRank" keyclose="true"/>
+	<uiprop id="mdlg_cityWarApply" keyclose="true"/>
+	<uiprop id="mdlg_cityWarGet" keyclose="true"/>
+	<uiprop id="mdlg_bindprompt" keyclose="true"/>
+	<uiprop id="mdlg_fcmReg" keyclose="true"/>
+	<uiprop id="mdlg_firstCharge" openeff="openEff:mdlg_firstCharge" closeeff="closeEff:mdlg_firstCharge" keyclose="true"/>
+	<uiprop id="msg_cardspwd" keyclose="true"/>
+	<uiprop id="mdlg_add_friend" keyclose="true"/>
+	<uiprop id="mdlg_friend_request_list" keyclose="true"/>
+	<uiprop id="mdlg_FriendGMPanel" keyclose="true"/>
+	<uiprop id="mdlg_add_friend" keyclose="true"/>
+	<uiprop id="mdlg_luckydraw" scaleX="1" openeff="openEff:mdlg_luckydraw" closeeff="closeEff:mdlg_luckydraw" keyclose="true"/>
+	<uiprop id="mdlg_npccarry" scaleX="1" keyclose="true"/>
+	<uiprop id="mdlg_personal_shop" scaleX="1" keyclose="true"/>
+	<uiprop id="mdlg_privatemsg" keyclose="true"/>
+	<uiprop id="mdlg_puzzle_activity" keyclose="true"/>
+	<uiprop id="randshop_msgbox" keyclose="true"/>
+	<uiprop id="mdlg_chainfo_observation" keyclose="true"/>
+	<uiprop id="mdlg_worldboss" openeff="openEff:mdlg_worldboss" closeeff="closeEff:mdlg_worldboss" keyclose="true"/>
+	<uiprop id="mdlg_scriptEnter" keyclose="true"/>
+	<uiprop id="mdlg_scriptWarInfo" keyclose="true"/>
+	<uiprop id="mdlg_smelt" keyclose="true"/>
+	<uiprop id="mdlg_splititem" keyclose="true"/>
+	<uiprop id="mdlg_stall" keyclose="true"/>
+	<uiprop id="mdlg_timeReminder" keyclose="true"/>
+	<uiprop id="mdlg_veapon" openeff="openEff:mdlg_veapon" closeeff="closeEff:mdlg_veapon" keyclose="true"/>
+	<uiprop id="mdlg_tempWarehouse" scaleX="1" keyclose="true"/>
+	<uiprop id="mdlg_teamlvl" load_ui="true" openeff="openEff:mdlg_teamlvl" closeeff="closeEff:mdlg_teamlvl" keyclose="true"/>
+	<uiprop id="mdlg_growthfund" openeff="openEff:mdlg_growthfund" closeeff="closeEff:mdlg_growthfund" keyclose="true"/>
+	<uiprop id="mdlg_investRemind" keyclose="true"/>
+	<uiprop id="mdlg_investLogs" keyclose="true"/>
+	<uiprop id="mdlg_transfer" keyclose="true"  openeff="openEff:mdlg_transfer" closeeff="closeEff:mdlg_transfer"/>
+	<uiprop id="mdlg_weekgoal" keyclose="true"  openeff="openEff:mdlg_weekgoal" closeeff="closeEff:mdlg_weekgoal"/>
+	<uiprop id="mdlg_lotteryshop" keyclose="true"/>
+	<uiprop id="mdlg_lotteryshop" keyclose="true"/>
+	<uiprop id="mdlg_crosswarshop" keyclose="true"/>
+	<uiprop id="mdlg_crossrank" keyclose="true"/>
+	<!-- 界面特效 -->
+	<uiprop id="mb_check" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_remind" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_welcome" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_useitem_prompt" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="missionAwardBox" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>	
+	<uiprop id="mdlg_online_reward" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_buyitem" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_jackal" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="UplvlgiftBox" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_systemopen" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_backgift" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_script_tips" load_ui="true" openeff="uiopen" closeeff="uiclose" opensound="remind" closesound="ui_close_1" keyclose="true"/>
+	<uiprop id="mdlg_geminlay" openeff="openEff:mdlg_geminlay" closeeff="closeEff:mdlg_geminlay" keyclose="true"/>
+	<uiprop id="mdlg_crosswar" load_ui="true" openeff="openEff:mdlg_crosswar" closeeff="closeEff:mdlg_crosswar" keyclose="true"/>
+	<uiprop id="ui_loading" scaleX="1" keyclose="true"/>
+	<!-- 交接任务 -->
+	<uiprop id="mdlg_npcDialog" opensound="npcDialog" closesound="ui_close_1" keyclose="true"/>
+	
+	<!-- 界面特效 -->
+	<uieff id="uiopen" tp="zoom" local="false">
+		<step bscale="0" escale="1.1" balpha="0" ealpha="0.9" tm="300"/>
+		<step bscale="1.1" escale="1" balpha="0.9" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="uiclose" tp="zoom" local="false">
+		<step bscale="1" escale="1.1" balpha="1" ealpha="0.9" tm="100"/>
+		<step bscale="1.1" escale="0" balpha="0.9" ealpha="0" tm="300"/>
+	</uieff>
+	<uieff id="localopen" tp="zoom" local="true">
+		<step bscale="0" escale="1.1" balpha="0" ealpha="0.9" tm="300"/>
+		<step bscale="1.1" escale="1" balpha="0.9" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="localclose" tp="zoom" local="true">
+		<step bscale="1" escale="1.1" balpha="1" ealpha="0.9" tm="100"/>
+		<step bscale="1.1" escale="0" balpha="0.9" ealpha="0" tm="300"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_chainfo" tp="parabola" target="mu_functionbar1.jole.btn_char">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_chainfo" tp="parabola" target="mu_functionbar1.jole.btn_char">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_package" tp="parabola" target="mu_functionbar1.packageBtn.btn_items">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_package" tp="parabola" target="mu_functionbar1.packageBtn.btn_items">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	<uieff id="openEff:mdlg_compose" tp="parabola" target="mu_functionbar1.compose.btn_compose">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_compose" tp="parabola" target="mu_functionbar1.compose.btn_compose">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_league" tp="parabola" target="mu_functionbar1.clan.btn_union">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_league" tp="parabola" target="mu_functionbar1.clan.btn_union">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_smithy" tp="parabola" target="mu_functionbar1.smithy.btn_smithing">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_smithy" tp="parabola" target="mu_functionbar1.smithy.btn_smithing">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_script_activity" tp="parabola" target="main:mdlg_script_activity">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_script_activity" tp="parabola" target="main:mdlg_script_activity">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_starmap" tp="parabola" target="main:mdlg_starmap">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_starmap" tp="parabola" target="main:mdlg_starmap">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_lottery" tp="parabola" target="main:mdlg_lottery">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_lottery" tp="parabola" target="main:mdlg_lottery">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_welfare" tp="parabola" target="main:mdlg_welfare">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_welfare" tp="parabola" target="main:mdlg_welfare">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_kfactivity" tp="parabola" target="main:mdlg_kfactivity">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_kfactivity" tp="parabola" target="main:mdlg_kfactivity">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_vip" tp="parabola" target="main:mdlg_vip">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_vip" tp="parabola" target="main:mdlg_vip">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_market" tp="parabola" target="main:mdlg_market">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_market" tp="parabola" target="main:mdlg_market">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_cityWarFace" tp="parabola" target="main:mdlg_cityWarFace">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_cityWarFace" tp="parabola" target="main:mdlg_cityWarFace">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_teamlvl" tp="parabola" target="main:mdlg_teamlvl">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_teamlvl" tp="parabola" target="main:mdlg_teamlvl">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_veapon" tp="parabola" target="main:mdlg_veapon">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_veapon" tp="parabola" target="main:mdlg_veapon">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_worldboss" tp="parabola" target="main:mdlg_worldboss">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_worldboss" tp="parabola" target="main:mdlg_worldboss">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_randshop" tp="parabola" target="main:mdlg_randshop">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_randshop" tp="parabola" target="main:mdlg_randshop">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_luckydraw" tp="parabola" target="main:mdlg_luckydraw">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_luckydraw" tp="parabola" target="main:mdlg_luckydraw">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_firstCharge" tp="parabola" target="main:mdlg_firstCharge">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_firstCharge" tp="parabola" target="main:mdlg_firstCharge">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_hfactivity" tp="parabola" target="main:mdlg_kfactivity2">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_hfactivity" tp="parabola" target="main:mdlg_kfactivity2">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_bfactivity" tp="parabola" target="main:mdlg_bfactivity">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_bfactivity" tp="parabola" target="main:mdlg_bfactivity">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_activity_light_lantern" tp="parabola" target="main:mdlg_ActivityLightLantern">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_activity_light_lantern" tp="parabola" target="main:mdlg_ActivityLightLantern">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_achievement" tp="parabola" target="main:mdlg_achievement">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_achievement" tp="parabola" target="main:mdlg_achievement">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_growthfund" tp="parabola" target="main:mdlg_growthfund">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_growthfund" tp="parabola" target="main:mdlg_growthfund">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_chargeback" tp="parabola" target="main:mdlg_chargeback">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_chargeback" tp="parabola" target="main:mdlg_chargeback">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<uieff id="openEff:mdlg_geminlay" tp="parabola" target="main:mdlg_geminlay">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_geminlay" tp="parabola" target="main:mdlg_geminlay">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	<uieff id="openEff:mdlg_transfer" tp="parabola" target="main:mdlg_transfer">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_transfer" tp="parabola" target="main:mdlg_transfer">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	<uieff id="openEff:mdlg_weekgoal" tp="parabola" target="main:mdlg_weekgoal">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_weekgoal" tp="parabola" target="main:mdlg_weekgoal">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	<uieff id="openEff:mdlg_crosswar" tp="parabola" target="main:mdlg_crosswar">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_crosswar" tp="parabola" target="main:mdlg_crosswar">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	<uieff id="openEff:mdlg_redpacket" tp="parabola" target="main:mdlg_redpacket_give">
+		<step yfun="QuadraticOut" spos="target" soffx="50" soffy="-100" epos="self" sizefun="QuadraticOut" bscale="0.25" escale="1" balpha="0" ealpha="0.5" tm="400"/>
+		<step balpha="0.5" ealpha="1" tm="100"/>
+	</uieff>
+	<uieff id="closeEff:mdlg_redpacket" tp="parabola" target="main:mdlg_redpacket_give">
+		<step yfun="CubicIn" sizefun="QuadraticIn" spos="self" epos="target" eoffx="45" eoffy="-100" bscale="1" escale="0.25" balpha="1" ealpha="0.75" tm="300"/>
+		<step yfun="CubicOut" sizefun="QuadraticOut" spos="target" soffx="45" soffy="-100" epos="target" eoffx="20" eoffy="30" bscale="0.25" escale="0" balpha="0.75" ealpha="0" tm="150"/>
+	</uieff>
+	
+	<!-- 声音相关文件 -->
+	<!-- 环境音效 -->
+	<sound id="wind" url="media/mapsound/wind"/>	
+	<sound id="aTower" url="media/mapsound/aTower"/>
+    <sound id="water" url="media/mapsound/water"/>	
+    <sound id="aHeaven"  url="media/mapsound/aHeaven"/>
+	<sound id="desert"  url="media/mapsound/desert" />
+    <sound id="forest"  url="media/mapsound/forest"/>
+	
+	<sound id="1" url="media/attack/atk_carr1"/>	
+		
+<!-- 怪物攻击音效 -->
+	<sound id="101_attack" url="media/mon/101_attack"/>
+	<sound id="102_attack" url="media/mon/102_attack"/>
+	<sound id="103_attack" url="media/mon/103_attack"/>
+	<sound id="104_attack" url="media/mon/104_attack"/>
+	<sound id="105_attack" url="media/mon/105_attack"/>
+	<sound id="106_attack" url="media/mon/106_attack"/>
+	<sound id="107_attack" url="media/mon/107_attack"/>
+	<sound id="108_attack" url="media/mon/108_attack"/>
+	<sound id="109_attack" url="media/mon/109_attack"/>
+	<sound id="110_attack" url="media/mon/110_attack"/>
+	<sound id="111_attack" url="media/mon/111_attack"/>
+	<sound id="112_attack" url="media/mon/112_attack"/>
+	<sound id="113_attack" url="media/mon/113_attack"/>
+	<sound id="114_attack" url="media/mon/114_attack"/>
+	<sound id="115_attack" url="media/mon/115_attack"/>
+	<sound id="116_attack" url="media/mon/116_attack"/>
+	<sound id="117_attack" url="media/mon/117_attack"/>
+	<sound id="118_attack" url="media/mon/118_attack"/>
+	<sound id="119_attack" url="media/mon/119_attack"/>
+	<sound id="120_attack" url="media/mon/120_attack"/>
+	<sound id="121_attack" url="media/mon/121_attack"/>
+	<sound id="122_attack" url="media/mon/122_attack"/>
+	<sound id="123_attack" url="media/mon/123_attack"/>
+	<sound id="124_attack" url="media/mon/124_attack"/>
+	<sound id="125_attack" url="media/mon/125_attack"/>
+	<sound id="126_attack" url="media/mon/126_attack"/>
+	<sound id="127_attack" url="media/mon/127_attack"/>
+	<sound id="128_attack" url="media/mon/128_attack"/>
+	<sound id="129_attack" url="media/mon/129_attack"/>
+	<sound id="130_attack" url="media/mon/130_attack"/>
+	<sound id="131_attack" url="media/mon/131_attack"/>
+	<sound id="132_attack" url="media/mon/132_attack"/>
+	<sound id="133_attack" url="media/mon/133_attack"/>
+	<sound id="134_attack" url="media/mon/134_attack"/>
+	<sound id="135_attack" url="media/mon/135_attack"/>
+	<sound id="136_attack" url="media/mon/136_attack"/>
+	<sound id="137_attack" url="media/mon/137_attack"/>
+	<sound id="138_attack" url="media/mon/138_attack"/>
+	<sound id="139_attack" url="media/mon/139_attack"/>
+	<sound id="140_attack" url="media/mon/140_attack"/>
+	<sound id="141_attack" url="media/mon/141_attack"/>
+	<sound id="142_attack" url="media/mon/142_attack"/>
+	<sound id="143_attack" url="media/mon/143_attack"/>
+	<sound id="144_attack" url="media/mon/144_attack"/>
+	<sound id="145_attack" url="media/mon/145_attack"/>
+	<sound id="146_attack" url="media/mon/146_attack"/>
+	<sound id="147_attack" url="media/mon/146_attack"/>
+	<sound id="148_attack" url="media/mon/148_attack"/>
+	<sound id="149_attack" url="media/mon/149_attack"/>
+	<sound id="150_attack" url="media/mon/150_attack"/>
+	<sound id="151_attack" url="media/mon/151_attack"/>
+	<sound id="152_attack" url="media/mon/152_attack"/>
+	<sound id="153_attack" url="media/mon/153_attack"/>
+	<sound id="154_attack" url="media/mon/154_attack"/>
+	<sound id="155_attack" url="media/mon/155_attack"/>
+	<sound id="156_attack" url="media/mon/156_attack"/>
+	<sound id="157_attack" url="media/mon/157_attack"/>
+	<sound id="158_attack" url="media/mon/158_attack"/>
+	<sound id="159_attack" url="media/mon/159_attack"/>
+	<sound id="160_attack" url="media/mon/160_attack"/>
+	<sound id="161_attack" url="media/mon/161_attack"/>
+	<sound id="162_attack" url="media/mon/162_attack"/>
+	<sound id="163_attack" url="media/mon/163_attack"/>
+	<sound id="164_attack" url="media/mon/164_attack"/>
+	<sound id="165_attack" url="media/mon/165_attack"/>
+	<sound id="166_attack" url="media/mon/166_attack"/>
+	<sound id="167_attack" url="media/mon/167_attack"/>
+	<sound id="168_attack" url="media/mon/168_attack"/>
+	<sound id="169_attack" url="media/mon/169_attack"/>
+	<sound id="170_attack" url="media/mon/170_attack"/>
+	<sound id="171_attack" url="media/mon/171_attack"/>
+	<sound id="172_attack" url="media/mon/172_attack"/>
+	<sound id="173_attack" url="media/mon/173_attack"/>
+	<sound id="901_attack" url="media/mon/901_attack"/>
+	<sound id="902_attack" url="media/mon/902_attack"/>
+	<sound id="903_attack" url="media/mon/903_attack"/>
+	<sound id="904_attack" url="media/mon/904_attack"/>
+	<sound id="905_attack" url="media/mon/905_attack"/>
+	<sound id="906_attack" url="media/mon/906_attack"/>
+	<sound id="907_attack" url="media/mon/907_attack"/>
+	<sound id="908_attack" url="media/mon/908_attack"/>
+	<sound id="909_attack" url="media/mon/909_attack"/>
+	<sound id="910_attack" url="media/mon/910_attack"/>
+	<sound id="911_attack" url="media/mon/911_attack"/>
+	<sound id="912_attack" url="media/mon/912_attack"/>
+	<sound id="913_attack" url="media/mon/913_attack"/>
+	<sound id="914_attack" url="media/mon/914_attack"/>
+	<sound id="915_attack" url="media/mon/915_attack"/>
+	<sound id="916_attack" url="media/mon/916_attack"/>
+
+<!-- 普通怪物攻击音效 -->
+    <sound id="manniuguai" url="media/mon/manniuguai"/>
+
+<!-- 普通怪物待机音效 -->
+	<sound id="101_ready" url="media/mon/101_ready"/>
+	<sound id="102_ready" url="media/mon/102_ready"/>
+	<sound id="103_ready" url="media/mon/103_ready"/>
+	<sound id="104_ready" url="media/mon/104_ready"/>
+	<sound id="105_ready" url="media/mon/105_ready"/>
+	<sound id="106_ready" url="media/mon/106_ready"/>
+	
+	<sound id="108_ready" url="media/mon/108_ready"/>
+	<sound id="109_ready" url="media/mon/109_ready"/>
+	<sound id="110_ready" url="media/mon/110_ready"/>
+	<sound id="111_ready" url="media/mon/111_ready"/>
+	<sound id="112_ready" url="media/mon/112_ready"/>
+	<sound id="113_ready" url="media/mon/113_ready"/>
+	<sound id="114_ready" url="media/mon/114_ready"/>
+	<sound id="115_ready" url="media/mon/115_ready"/>
+	<sound id="116_ready" url="media/mon/116_ready"/>
+	<sound id="117_ready" url="media/mon/117_ready"/>
+	<sound id="118_ready" url="media/mon/118_ready"/>
+	<sound id="119_ready" url="media/mon/119_ready"/>
+	<sound id="120_ready" url="media/mon/120_ready"/>
+	<sound id="121_ready" url="media/mon/121_ready"/>
+	<sound id="122_ready" url="media/mon/122_ready"/>
+	<sound id="123_ready" url="media/mon/123_ready"/>
+	<sound id="124_ready" url="media/mon/124_ready"/>
+	<sound id="125_ready" url="media/mon/125_ready"/>
+	<sound id="126_ready" url="media/mon/126_ready"/>
+	<sound id="127_ready" url="media/mon/127_ready"/>
+	<sound id="128_ready" url="media/mon/128_ready"/>
+	<sound id="129_ready" url="media/mon/129_ready"/>
+	<sound id="130_ready" url="media/mon/130_ready"/>
+	<sound id="131_ready" url="media/mon/131_ready"/>
+	<sound id="132_ready" url="media/mon/132_ready"/>
+	<sound id="133_ready" url="media/mon/133_ready"/>
+	<sound id="134_ready" url="media/mon/134_ready"/>
+	<sound id="135_ready" url="media/mon/135_ready"/>
+	<sound id="136_ready" url="media/mon/136_ready"/>
+	<sound id="137_ready" url="media/mon/137_ready"/>
+	<sound id="138_ready" url="media/mon/138_ready"/>
+	<sound id="139_ready" url="media/mon/139_ready"/>
+	<sound id="140_ready" url="media/mon/140_ready"/>
+	<sound id="141_ready" url="media/mon/141_ready"/>
+	<sound id="142_ready" url="media/mon/142_ready"/>
+	<sound id="143_ready" url="media/mon/143_ready"/>
+	<sound id="144_ready" url="media/mon/144_ready"/>
+	<sound id="145_ready" url="media/mon/145_ready"/>
+	<sound id="146_ready" url="media/mon/146_ready"/>
+	<sound id="147_ready" url="media/mon/147_ready"/>
+	<sound id="148_ready" url="media/mon/148_ready"/>
+	<sound id="149_ready" url="media/mon/149_ready"/>
+	<sound id="150_ready" url="media/mon/150_ready"/>
+	<sound id="151_ready" url="media/mon/151_ready"/>
+	<sound id="152_ready" url="media/mon/152_ready"/>
+	<sound id="153_ready" url="media/mon/153_ready"/>
+	<sound id="154_ready" url="media/mon/154_ready"/>
+	<sound id="155_ready" url="media/mon/155_ready"/>
+	<sound id="156_ready" url="media/mon/156_ready"/>
+	<sound id="157_ready" url="media/mon/157_ready"/>
+	<sound id="158_ready" url="media/mon/158_ready"/>
+	<sound id="159_ready" url="media/mon/159_ready"/>
+	<sound id="160_ready" url="media/mon/160_ready"/>
+	<sound id="161_ready" url="media/mon/161_ready"/>
+	<sound id="162_ready" url="media/mon/162_ready"/>
+	<sound id="163_ready" url="media/mon/163_ready"/>
+	<sound id="164_ready" url="media/mon/164_ready"/>
+	<sound id="165_ready" url="media/mon/165_ready"/>
+	<sound id="166_ready" url="media/mon/166_ready"/>
+	<sound id="167_ready" url="media/mon/167_ready"/>
+	<sound id="168_ready" url="media/mon/168_ready"/>
+	<sound id="169_ready" url="media/mon/169_ready"/>
+	<sound id="170_ready" url="media/mon/170_ready"/>
+	<sound id="171_ready" url="media/mon/171_ready"/>
+	<sound id="172_ready" url="media/mon/172_ready"/>
+	<sound id="173_ready" url="media/mon/173_ready"/>
+
+	<sound id="901_ready" url="media/mon/901_ready"/>
+	<sound id="902_ready" url="media/mon/902_ready"/>
+	<sound id="903_ready" url="media/mon/903_ready"/>
+	<sound id="904_ready" url="media/mon/904_ready"/>
+	<sound id="905_ready" url="media/mon/905_ready"/>
+	<sound id="906_ready" url="media/mon/906_ready"/>
+	<sound id="907_ready" url="media/mon/907_ready"/>
+	<sound id="908_ready" url="media/mon/908_ready"/>
+	<sound id="909_ready" url="media/mon/909_ready"/>
+	<sound id="910_ready" url="media/mon/910_ready"/>
+	<sound id="911_ready" url="media/mon/911_ready"/>
+	<sound id="912_ready" url="media/mon/912_ready"/>
+	<sound id="913_ready" url="media/mon/913_ready"/>
+	<sound id="914_ready" url="media/mon/914_ready"/>
+	<sound id="915_ready" url="media/mon/915_ready"/>
+	<sound id="916_ready" url="media/mon/916_ready"/>
+
+	<!-- 技能音效 -->
+	<sound id="zhanshi1" url="media/skill/zhanshi1"/>
+	<sound id="zhanshi2" url="media/skill/zhanshi2"/>
+	<sound id="zhanshi3" url="media/skill/zhanshi3"/>
+	<sound id="zhanshi4" url="media/skill/zhanshi4"/>
+	<sound id="zhanshi5" url="media/skill/zhanshi5"/>
+	<sound id="nengliangqiu" url="media/skill/nengliangqiu"/>
+	<sound id="heilongbo" url="media/skill/heilongbo"/>
+	<sound id="baozha" url="media/skill/baozha"/>
+	<sound id="baozha" url="media/skill/baozha"/>
+	<sound id="shouhu" url="media/skill/shouhu"/>
+
+	<sound id="gongjianshou1" url="media/skill/gongjianshou1"/>
+	<sound id="gongjianshou1" url="media/skill/gongjianshou1"/>
+	<sound id="gongjianshou1" url="media/skill/gongjianshou1"/>
+	<sound id="gongjianshou1" url="media/skill/gongjianshou1"/>
+	<sound id="gongjianshou1" url="media/skill/gongjianshou1"/>
+	<sound id="gongjianshou1" url="media/skill/gongjianshou1"/>
+	<sound id="shouhu" url="media/skill/shouhu"/>
+<!-- 物品掉落音效 -->
+	<sound id="wupin" url="media/item/wupin"/>
+	<sound id="jinbi" url="media/item/jinbi"/>
+	<sound id="baoshi" url="media/item/baoshi"/>
+	<sound id="baoshi" url="media/item/baoshi"/>
+	<sound id="baoshi" url="media/item/baoshi"/>
+	<sound id="baoshi" url="media/item/baoshi"/>
+<!-- 普通攻击音效 -->
+	<sound id="atk_carr1" url="media/attack/atk_carr1"/>
+	<sound id="atk_carr2" url="media/attack/atk_carr2"/>
+	<sound id="atk_carr3" url="media/attack/atk_carr3"/>
+	<sound id="atk_carr4" url="media/attack/atk_carr4"/>
+<!-- 暴击音效 -->
+	<sound id="cri_carr1" url="media/attack/cri_carr1"/>
+	<sound id="cri_carr2" url="media/attack/cri_carr2"/>
+	<sound id="cri_carr3" url="media/attack/cri_carr3"/>
+	<sound id="cri_carr4" url="media/attack/cri_carr4"/>
+	<!-- 特殊音效 -->
+	<sound id="task_receive_1" url="media/attack/mission_acp"/>
+	<sound id="task_finish_1" url="media/attack/mission_acp"/>
+	<sound id="ui_open_1" url="media/ui/iCreateWindow"/>
+	<sound id="ui_close_1" url="media/ui/iCloseWindow"/>	
+	<sound id="to_bag_1" url="media/item/pGetItem"/>
+	<sound id="pay_gold_1" url="media/item/jinbi"/>	
+	<sound id="character_up_1" url="media/attack/lvl_up"/>	
+	<sound id="forging_success_1" url="media/item/baoshi"/>	
+	<sound id="forging_fail_1" url="media/item/baoshi"/>	
+	<sound id="forging_add_1" url="media/item/pGetItem"/>	
+	<sound id="die_1" url="media/attack/die_man" />
+	<sound id="die_2" url="media/attack/die_man" />
+	<sound id="die_3" url="media/attack/die_woman" />
+	<sound id="die_4" url="media/attack/die_man" />
+	<sound id="take_off" url=""/>
+	<sound id="put_on" url="media/ui/equipChange"/>
+	<sound id="npcDialog" url="media/ui/npcDialog"/>	
+	<sound id="remind" url="media/ui/remind"/>			
+	<sound id="skill_up" url="media/ui/skill_up"/>
+	<!--地图背景音乐-->
+	<sound id="map1" url="media/mapmusic/1"/>
+	<sound id="map2" url="media/mapmusic/2"/>
+	<sound id="map3" url="media/mapmusic/3"/>
+	<sound id="map201" url="media/mapmusic/201"/>
+
+
+	<!-- NPC音效 -->
+	<sound id="nBlackSmith" url="media/npc/nBlackSmith"/>
+	<!-- 表情音效 -->
+	<sound id="chatface_1" url=""	/>
+	<sound id="chatface_2" url="media/chatface/tu"	/>
+	<sound id="chatface_3" url="media/chatface/qinwen"	/>
+	<sound id="chatface_4" url=""		/>
+	<sound id="chatface_5" url="media/chatface/dazhaohu"	/>
+	<sound id="chatface_6" url="media/chatface/wolaile"	/>
+	<sound id="chatface_7" url="media/chatface/diaoya"/>
+	<sound id="chatface_8" url="media/chatface/zhuangqiang"	/>
+	<sound id="chatface_9" url="media/chatface/yongbao"	/>
+	<sound id="chatface_10" url="media/chatface/shiai"/>
+	<sound id="chatface_11" url="media/chatface/da"	/>
+	<sound id="chatface_12" url="media/chatface/ku"	/>
+	<sound id="chatface_13" url="media/chatface/ku"	/>
+	<sound id="chatface_14" url="media/chatface/quan"	/>
+	<sound id="chatface_15" url="media/chatface/baituo"	/>
+	<sound id="chatface_16" url="media/chatface/bixue"	/>
+	<sound id="chatface_17" url="media/chatface/biao"	/>
+	<sound id="chatface_18" url="media/chatface/weiqu"	/>
+	<sound id="chatface_19" url="media/chatface/guilian"	/>
+	<sound id="chatface_20" url="media/chatface/dama"	/>
+	<sound id="chatface_21" url="media/chatface/daxiao"	/>
+	<sound id="chatface_22" url="media/chatface/jingkong"	/>
+</data>

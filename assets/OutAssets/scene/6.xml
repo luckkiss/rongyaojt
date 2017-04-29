@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map id="">
+  <env>
+    <fog display="False" density="0.01" mode="ExponentialSquared" distBegin="0" distEnd="300">
+      <color r="0.5" g="0.5" b="0.5" a="1" />
+    </fog>
+    <amblight>
+      <color r="0.2" g="0.2" b="0.2" a="1" />
+    </amblight>
+	<Lightmap>
+      <asset file="scene/Ytlds_Scene/LightmapFar-0" />
+	  <asset file="scene/Ytlds_Scene/LightmapFar-1" />
+    </Lightmap>
+	<LightProbes>
+      <asset file="scene/Ytlds_Scene/LightProbes" />
+    </LightProbes>
+  </env>
+  <Mesh id="map6">
+    <asset file="scene/Ytlds_Scene" />
+    <pos x="0" y="0" z="0" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+  </Mesh>
+</map>

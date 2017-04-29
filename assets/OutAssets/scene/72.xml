@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<map id="">
+  <env>
+    <fog display="False" density="0.1" mode="Linear" distBegin="30" distEnd="40">
+      <color r="0.17" g="0.14" b="0.25" a="1" />
+    </fog>
+    <amblight>
+      <color r="0.2" g="0.2" b="0.2" a="1" />
+    </amblight>
+	<Lightmap>
+      <asset file="scene/trss_Scene/scene/LightmapFar-0" />
+    </Lightmap>
+	<LightProbes>
+      <asset file="scene/trss_Scene/scene/LightProbes" />
+    </LightProbes>
+	<Skybox>
+      <asset file="null" />
+    </Skybox>
+  </env>
+  <Mesh id="70">
+	<asset file="scene/trss_Scene/trss_Scene" />
+    <pos x="23" y="0" z="48" />
+    <rot x="0" y="0" z="0" />
+    <scale x="1" y="1" z="1" />
+  </Mesh>
+</map>

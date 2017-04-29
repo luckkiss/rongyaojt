@@ -1,0 +1,1487 @@
+﻿<data>
+	<avapart part="body" type="normal" />
+		
+	<!--角色配置start-->
+		<!-- 男=0 女=1 -->
+			<!--file: 角色prefab，需包含所有base part-->
+	<cha id="0" file="QSMY/character/player_male/player" ani="player_male" chaHeight="2.5">
+		<boundRect width="65" height="135" />
+	  	<pickRect width="65" height="135" />
+ 		<bpart part="body" obj="body" />
+		<bpart part="hair" obj="hair" />
+		<bpart part="face" obj="face" />
+		<bpart part="RightHand" obj="RightHand"/>
+		<bpart part="Bip01 Spine1" obj="Bip01 Spine1"/>
+	</cha>
+	<cha id="1" file="QSMY/character/player_female/player" ani="player_female" chaHeight="2.5">
+		<boundRect width="65" height="135" />
+	  	<pickRect width="65" height="135" />
+ 		<bpart part="body" obj="body" />
+		<bpart part="hair" obj="hair" />
+		<bpart part="face" obj="face" />
+		<bpart part="RightHand" obj="RightHand"/>
+		<bpart part="Bip01 Spine1" obj="Bip01 Spine1"/>
+	</cha>
+
+<!--角色阴影面片-->
+	<!--<cha id="shadow" file="character/shadow/shadow" ani="PF" /> -->
+<!--角色配置end-->
+	
+<!--怪物外观配置 start-->
+	<cha id="101" monster_name="秦兵" file="QSMY/character/monster/10001/10001" ani="m_001" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<!--<boundBox center="0,0.5,0" extent="0.2,1,0.2" />-->
+	</cha>
+	<cha id="102" monster_name="墨家弟子" file="QSMY/character/monster/10014/10014" ani="m_002" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<!--<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />-->
+	</cha>
+	<cha id="103" monster_name="燕国侍卫" file="QSMY/character/monster/10103/10013" ani="m_003" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<!--<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />-->
+	</cha>
+	<cha id="104" monster_name="毒蛇" file="QSMY/character/monster/20002/20002" ani="m_004" chaHeight="2.5" scale="1.1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<!--<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />-->
+	</cha>
+	<cha id="105" monster_name="班大师" file="QSMY/character/monster/20013/20013" ani="m_005" chaHeight="2.5" scale="1.3">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="106" monster_name="四爪铁蜘蛛" file="QSMY/character/monster/20025/20025" ani="m_006" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="107" monster_name="隐蝠" file="QSMY/character/monster/20043/20043" ani="m_007" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="108" monster_name="蒙恬" file="QSMY/character/monster/20081/20081" ani="m_008" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="109" monster_name="秦兵统领" file="QSMY/character/monster/10001/10001" ani="m_001" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="110" monster_name="无双鬼" file="QSMY/character/hero/10004/10004" ani="m_010" chaHeight="2.5" scale="1.5">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="111" monster_name="苍狼王" file="QSMY/character/hero/10005/10005" ani="m_011" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="112" monster_name="赤炼" file="QSMY/character/hero/10006/10006" ani="m_012" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="113" monster_name="少司命" file="QSMY/character/hero/10010/10010" ani="m_013" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="114" monster_name="端木蓉" file="QSMY/character/hero/10015/10015" ani="m_014" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="115" monster_name="高渐离" file="QSMY/character/hero/10008/10008" ani="m_015" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="116" monster_name="卫庄" file="QSMY/character/hero/10017/10017" ani="m_016" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="117" monster_name="大铁锤" file="QSMY/character/hero/10018/10018" ani="m_017" chaHeight="2.5" scale="1.1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="118" monster_name="六剑奴一" file="QSMY/character/hero/10029/10029" ani="m_018" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="119" monster_name="乌鸦" file="QSMY/character/monster/1018/1018" ani="m_019" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="120" monster_name="小怪鸟" file="QSMY/character/monster/20019/20019" ani="m_020" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="121" monster_name="狼" file="QSMY/character/monster/1008/1008" ani="m_021" chaHeight="1.8" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="122" monster_name="刺客头领" file="QSMY/character/monster/20091/20091" ani="m_022" chaHeight="1.8" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="123" monster_name="姬无夜" file="QSMY/character/monster/20120/20120" ani="m_023" chaHeight="1.8" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="124" monster_name="棋人·白" file="QSMY/character/monster/20064/20064" ani="m_024" chaHeight="1.8" scale="1.5">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="125" monster_name="燕国侍卫头领" file="QSMY/character/monster/20103/20103" ani="m_025" chaHeight="1.8" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="126" monster_name="赤练王蛇" file="QSMY/character/monster/20100/20100" ani="m_026" chaHeight="2.5" scale="1.5">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="127" monster_name="鹰" file="QSMY/character/monster/10027/10027" ani="m_027" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="128" monster_name="燕国侍卫" file="QSMY/character/monster/10103/10103" ani="m_028" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="129" monster_name="墨家小队长" file="QSMY/character/monster/20031/20031" ani="m_029" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="130" monster_name="机关鸟" file="QSMY/character/monster/1063/1063" ani="m_030" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="131" monster_name="机关铜人" file="QSMY/character/monster/1065/1065" ani="m_031" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="132" monster_name="项家护卫" file="QSMY/character/monster/1004/1004" ani="m_032" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="133" monster_name="秦国暗探" file="QSMY/character/monster/1017/1017" ani="m_033" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="134" monster_name="刺客" file="QSMY/character/monster/1091/1091" ani="m_034" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="135" monster_name="机关蛇" file="QSMY/character/monster/20039/20039" ani="m_035" chaHeight="2.5" scale="1.1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="136" monster_name="墨家弟子（BOSS）" file="QSMY/character/monster/10014/10014" ani="m_002" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<!--<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />-->
+	</cha>
+	<cha id="137" monster_name="乌鸦（BOSS）" file="QSMY/character/monster/1018/1018" ani="m_019" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="138" monster_name="秦国暗探（BOSS）" file="QSMY/character/monster/1017/1017" ani="m_033" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="139" monster_name="毒蛇（BOSS）" file="QSMY/character/monster/20002/20002" ani="m_004" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<!--<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />-->
+	</cha>
+	<cha id="140" monster_name="蝙蝠" file="QSMY/character/monster/10041/10041" ani="m_040" chaHeight="2.5" scale="2.5">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="141" monster_name="蝙蝠（BOSS）" file="QSMY/character/monster/10041/10041" ani="m_040" chaHeight="2.5" scale="4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="142" monster_name="公输仇" file="QSMY/character/monster/20069/20069" ani="m_042" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="143" monster_name="秦国重甲兵" file="QSMY/character/monster/20090/20090" ani="m_043" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="144" monster_name="秦国重甲兵（BOSS）" file="QSMY/character/monster/20090/20090" ani="m_043" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="145" monster_name="机关甲虫" file="QSMY/character/monster/1060/1060" ani="m_045" chaHeight="2.5" scale="1">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="146" monster_name="棋人·白(BOSS)" file="QSMY/character/monster/20064/20064" ani="m_024" chaHeight="1.8" scale="2">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="147" monster_name="机关铜人(BOSS)" file="QSMY/character/monster/1065/1065" ani="m_031" chaHeight="2.5" scale="1.5">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.8,0.2" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="148" monster_name="机关无双" file="QSMY/character/hero/10014/10014" ani="m_048" chaHeight="2.5" scale="1.5">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="149" monster_name="白凤凰" file="QSMY/character/hero/10009/10009" ani="m_049" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="150" monster_name="少司命" file="QSMY/character/hero/10010/10010" ani="m_050" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="151" monster_name="雪女" file="QSMY/character/hero/10007/10007" ani="m_051" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="152" monster_name="真刚" file="QSMY/character/hero/10029/10029" ani="m_052" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="153" monster_name="断水" file="QSMY/character/hero/10030/10030" ani="m_053" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="154" monster_name="机关无双" file="QSMY/character/hero/10014/10014" ani="m_054" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="155" monster_name="大司命" file="QSMY/character/hero/10012/10012" ani="m_055" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="156" monster_name="月神" file="QSMY/character/hero/10011/10011" ani="m_056" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="157" monster_name="胜七" file="QSMY/character/hero/10023/10023" ani="m_057" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="158" monster_name="高月" file="QSMY/character/hero/10003/10003" ani="m_058" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="159" monster_name="盗跖" file="QSMY/character/hero/10013/10013" ani="m_059" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="160" monster_name="大铁锤（精英BOSS）" file="QSMY/character/hero/10018/10018" ani="m_060" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	<cha id="161" monster_name="刺客" file="QSMY/character/monster/20108/20108" ani="m_061" chaHeight="2.5" scale="1.4">
+		<boundRect width="65" height="135"/>
+		<pickRect width="65" height="135"/>
+		<boundBox center="0,0.5,0" extent="0.2,1,0.2" />
+	</cha>
+	
+	
+<!--怪物外观配置 end-->
+<cha id="3000" file="QSMY/character/hero/10001/10001" chaHeight="1.7" ani="hero1" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--项少羽-->
+<cha id="3001" file="QSMY/character/hero/10002/10002" chaHeight="2.1" ani="hero2" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+    <boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--高月-->
+<cha id="3002" file="QSMY/character/hero/10003/10003" chaHeight="1.9" ani="hero3" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--无双鬼-->
+<cha id="3003" file="QSMY/character/hero/10004/10004" chaHeight="2.2" ani="hero4" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--苍狼王-->
+<cha id="3004" file="QSMY/character/hero/10005/10005" chaHeight="2.2" ani="hero5" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>	
+</cha>
+<!--赤练-->
+<cha id="3005" file="QSMY/character/hero/10006/10006" chaHeight="2.2" ani="hero6" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--雪女-->
+<cha id="3006" file="QSMY/character/hero/10007/10007" chaHeight="2.2" ani="hero7" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--高渐离-->
+<cha id="3007" file="QSMY/character/hero/10008/10008" chaHeight="2.2" ani="hero8" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--白凤凰-->
+<cha id="3008" file="QSMY/character/hero/10009/10009" chaHeight="2.2" ani="hero9" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--少司命-->
+<cha id="3009" file="QSMY/character/hero/10010/10010" chaHeight="2.0" ani="hero10" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--大司命-->
+<cha id="3010" file="QSMY/character/hero/10012/10012" chaHeight="2.2" ani="hero11" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--盗跖-->
+<cha id="3011" file="QSMY/character/hero/10013/10013" chaHeight="2.2" ani="hero12" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+	
+</cha>
+<!--机关无双-->
+<cha id="3012" file="QSMY/character/hero/10014/10014" chaHeight="2.2" ani="hero22" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--端木蓉-->
+<cha id="3013" file="QSMY/character/hero/10015/10015" chaHeight="2.2" ani="hero13" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--盖聂-->
+<cha id="3014" file="QSMY/character/hero/10016/10016" chaHeight="2.2" ani="hero14" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--卫庄-->
+<cha id="3015" file="QSMY/character/hero/10017/10017" chaHeight="2.2" ani="hero15" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--大铁锤-->
+<cha id="3016" file="QSMY/character/hero/10018/10018" chaHeight="2.2" ani="hero16" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--巨子-->
+<cha id="3017" file="QSMY/character/hero/10019/10019" chaHeight="2.2" ani="hero17" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--胜七-->
+<cha id="3018" file="QSMY/character/hero/10023/10023" chaHeight="2.2" ani="hero18" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--真刚-->
+<cha id="3019" file="QSMY/character/hero/10029/10029" chaHeight="2.2" ani="hero19" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--断水-->
+<cha id="3020" file="QSMY/character/hero/10030/10030" chaHeight="2.2" ani="hero20" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--月神-->
+<cha id="3021" file="QSMY/character/hero/10011/10011" chaHeight="2.2" ani="hero21" scale="1.5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--HERO end-->
+
+<!--BOSS 外观配置 start-->
+<!--荆天明--><!--rigitype刚体碰撞-->
+<cha id="1010" file="QSMY/character/hero/10001/10001" chaHeight="1.7" ani="hero1">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--项少羽-->
+<cha id="1020" file="QSMY/character/hero/10002/10002" chaHeight="2.1" ani="hero2">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+    <boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--高月-->
+<cha id="1030" file="QSMY/character/hero/10003/10003" chaHeight="1.9" ani="hero3">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--无双鬼-->
+<cha id="1040" file="QSMY/character/hero/10004/10004" chaHeight="2.2" ani="hero4">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--苍狼王-->
+<cha id="1050" file="QSMY/character/hero/10005/10005" chaHeight="2.2" ani="hero5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>	
+</cha>
+<!--赤练-->
+<cha id="1060" file="QSMY/character/hero/10006/10006" chaHeight="2.2" ani="hero6">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--雪女-->
+<cha id="1070" file="QSMY/character/hero/10007/10007" chaHeight="2.2" ani="hero7">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--高渐离-->
+<cha id="1080" file="QSMY/character/hero/10008/10008" chaHeight="2.2" ani="hero8">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--白凤凰-->
+<cha id="1090" file="QSMY/character/hero/10009/10009" chaHeight="2.2" ani="hero9">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--少司命-->
+<cha id="1100" file="QSMY/character/hero/10010/10010" chaHeight="2.0" ani="hero10">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--大司命-->
+<cha id="1110" file="QSMY/character/hero/10012/10012" chaHeight="2.2" ani="hero11">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--盗跖-->
+<cha id="1120" file="QSMY/character/hero/10013/10013" chaHeight="2.2" ani="hero12">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--机关无双-->
+<cha id="1121" file="QSMY/character/hero/10014/10014" chaHeight="2.2" ani="hero22">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--端木蓉-->
+<cha id="1130" file="QSMY/character/hero/10015/10015" chaHeight="2.2" ani="hero13">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--盖聂-->
+<cha id="1140" file="QSMY/character/hero/10016/10016" chaHeight="2.2" ani="hero14">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--卫庄-->
+<cha id="1150" file="QSMY/character/hero/10017/10017" chaHeight="2.2" ani="hero15">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--大铁锤-->
+<cha id="1160" file="QSMY/character/hero/10018/10018" chaHeight="2.2" ani="hero16">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--巨子-->
+<cha id="1170" file="QSMY/character/hero/10019/10019" chaHeight="2.2" ani="hero17">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--胜七-->
+<cha id="1180" file="QSMY/character/hero/10023/10023" chaHeight="2.2" ani="hero18">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--真刚-->
+<cha id="1190" file="QSMY/character/hero/10029/10029" chaHeight="2.2" ani="hero19">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--断水-->
+<cha id="1200" file="QSMY/character/hero/10030/10030" chaHeight="2.2" ani="hero20">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+<!--月神-->
+<cha id="1201" file="QSMY/character/hero/10011/10011" chaHeight="2.2" ani="hero21">
+	<boundRect width="65" height="135"/>
+	<pickRect width="65" height="135"/>
+	<boundBox center="0,0.8,0.2" extent="0.2,1,0.2"/>
+</cha>
+
+
+<!--BOSS 外观配置 end-->
+
+
+
+<!--MOUNT start-->
+<!--测试坐骑，红马-->
+<cha id="m1001" file="QSMY/character/mount/1001/1001" chaHeight="2.5" ani="ma_1001">
+	<boundRect width="65" height="135"/>
+	<pickRect width="130" height="270"/>
+	<boundBox center="0,2,0" extent="1,4,1"/>
+</cha>
+<cha id="m1003" file="QSMY/character/mount/1003/1003" chaHeight="2.5" ani="ma_1003">
+	<boundRect width="65" height="135"/>
+	<pickRect width="130" height="270"/>
+	<boundBox center="0,2,0" extent="1,4,1"/>
+</cha>
+<cha id="m1014" file="QSMY/character/mount/1014/1014" chaHeight="2.5" ani="ma_1014">
+	<boundRect width="65" height="135"/>
+	<pickRect width="130" height="270"/>
+	<boundBox center="0,2,0" extent="1,4,1"/>
+</cha>
+<!--MOUNT end-->
+
+<!--NPC start-->
+	<!--黑龙卷-->
+<cha id="90001" file="QSMY/character/npc/165/165" ani="npc1">
+	<boundRect width="65" height="135"/>
+	<pickRect width="130" height="270"/>
+	<boundBox center="0,2,0" extent="1,4,1"/>
+</cha>
+	<!--银箱子-->
+<cha id="90002" file="QSMY/character/npc/90002/90002" ani="npc2">
+	<boundRect width="65" height="135"/>
+	<pickRect width="130" height="270"/>
+	<boundBox center="0,2,0" extent="1,4,1"/>
+</cha>
+	<!--金箱子-->
+<cha id="90003" file="QSMY/character/npc/90003/90003" ani="npc3">
+	<boundRect width="65" height="135"/>
+	<pickRect width="130" height="270"/>
+	<boundBox center="0,2,0" extent="1,4,1"/>
+</cha>
+	<!--神秘商人-->
+<cha id="90004" file="QSMY/character/npc/902/902" ani="npc4">
+	<boundRect width="65" height="135"/>
+	<pickRect width="130" height="270"/>
+	<boundBox center="0,2,0" extent="1,4,1"/>
+</cha>
+	<!--铁匠-->
+<cha id="90005" file="QSMY/character/npc/109/109" ani="npc5">
+	<boundRect width="65" height="135"/>
+	<pickRect width="130" height="270"/>
+	<boundBox center="0,2,0" extent="1,4,1"/>
+</cha>
+	<!--家族管理员-->
+<cha id="90006" file="QSMY/character/npc/119/119" ani="npc6">
+	<boundRect width="65" height="135"/>
+	<pickRect width="130" height="270"/>
+	<boundBox center="0,2,0" extent="1,4,1"/>
+</cha>
+<!--NPC end-->
+
+<!--BOSS start
+    <cha id="kulouwang" file="character/Bs_Hm_Kulouwang" ani="kulouwang">
+        <boundRect width="65" height="135" />    
+        <pickRect width="65" height="135" />  
+        <boundBox center="0,1,0" extent="1,2,1" />
+        <battach part="weapon" attachto="Hand_R" cid="kulouwangfazhang"/>		
+    </cha>
+BOSS end-->
+
+
+<!--时装外观配置-->
+<!--男主角武器换装 -->
+<cha id="10000" file="QSMY/character/avatar/1000" ></cha>
+<cha id="10010" file="QSMY/character/avatar/1001" ></cha>
+<cha id="20010" file="QSMY/character/avatar/5001" ></cha>
+<cha id="60010" file="QSMY/character/avatar/4001" ></cha>
+<cha id="90010" file="QSMY/character/avatar/3001" ></cha>
+<cha id="110010" file="QSMY/character/avatar/2001" ></cha>
+<cha id="990010" file="QSMY/character/avatar/8001" ></cha>
+
+<!--男主角翅膀换装 -->
+<cha id="10040" file="QSMY/character/avatar/1004" ></cha>
+<cha id="20040" file="QSMY/character/avatar/5004" ></cha>
+<cha id="60040" file="QSMY/character/avatar/4004" ></cha>
+<cha id="90040" file="QSMY/character/avatar/3004" ></cha>
+<cha id="110040" file="QSMY/character/avatar/2004" ></cha>
+<cha id="990000" file="QSMY/character/avatar/99000" ></cha>
+
+
+<!-- 坐骑的动作-->
+	<chaAni id="ma_1001" defani="idle">
+		<ani name="idle"  file="QSMY/character/mount/1001/idle" loop="true"/>		 
+		<ani name="run"  file="QSMY/character/mount/1001/run" loop="true"/>		 
+	</chaAni>
+	<chaAni id="ma_1003" defani="idle">
+		<ani name="idle"  file="QSMY/character/mount/1003/idle" loop="true"/>		 
+		<ani name="run"  file="QSMY/character/mount/1003/run" loop="true"/>		 
+	</chaAni>
+	<chaAni id="ma_1014" defani="idle">
+		<ani name="idle"  file="QSMY/character/mount/1014/idle" loop="true"/>		 
+		<ani name="run"  file="QSMY/character/mount/1014/run" loop="true"/>		 
+	</chaAni>
+	
+
+<!-- npc动作-->
+	<chaAni id="npc1" defani="idle">
+		<ani name="idle" file="QSMY/character/npc/165/idle" loop="true"/>	 
+	</chaAni>
+	<chaAni id="npc2" defani="idle">
+		<ani name="idle" file="QSMY/character/npc/90002/idle" loop="true"/>	 
+		<ani name="sidle" file="QSMY/character/npc/90002/sidle"/>	 
+	</chaAni>
+	<chaAni id="npc3" defani="idle">
+		<ani name="idle" file="QSMY/character/npc/90003/idle" loop="true"/>	 
+		<ani name="sidle" file="QSMY/character/npc/90003/sidle"/>	
+	</chaAni>
+	<chaAni id="npc4" defani="idle">
+		<ani name="idle" file="QSMY/character/npc/902/idle" loop="true"/>	 
+		<ani name="sidle" file="QSMY/character/npc/902/sidle"/>	
+	</chaAni>
+	<chaAni id="npc5" defani="idle">
+		<ani name="idle" file="QSMY/character/npc/109/idle" loop="true"/>	 
+		<ani name="sidle" file="QSMY/character/npc/109/sidle"/>	
+	</chaAni>
+	<chaAni id="npc6" defani="idle">
+		<ani name="idle" file="QSMY/character/npc/119/idle" loop="true"/>	 
+		<ani name="sidle" file="QSMY/character/npc/119/sidle"/>	
+	</chaAni>
+	
+	
+<!-- 英雄动作 start-->
+<!--荆天明-->
+	<chaAni id="hero1" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10001/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10001/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10001/attack" effect="QSMY/FX/charFX/heroFx/FX_hero_10001_attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10001/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10001/sidle"/>
+        <ani name="dead" file="QSMY/character/hero/10001/dead"/>		
+		<ani name="2001" file="QSMY/character/hero/10001/skill"/>	
+	</chaAni>
+<!--项少羽-->
+	<chaAni id="hero2" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10002/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10002/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10002/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10002/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10002/sidle"/>	
+		<ani name="dead" file="QSMY/character/hero/10002/dead"/>	
+		<ani name="2002" file="QSMY/character/hero/10002/skill"/>	
+	</chaAni>
+<!--高月-->
+	<chaAni id="hero3" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10003/idle" loop="true"/>	
+	    <ani name="run" file="QSMY/character/hero/10003/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10003/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10003/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10003/sidle"/>
+        <ani name="dead" file="QSMY/character/hero/10003/dead"/>		
+		<ani name="2003" file="QSMY/character/hero/10003/skill"/>	
+	</chaAni>
+<!--无双鬼-->
+	<chaAni id="hero4" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10004/idle" loop="true"/>
+		<ani name="run" file="QSMY/character/hero/10004/run" loop="true"/>
+		<ani name="song" file="QSMY/character/hero/10004/song" loop="true"/>
+		<ani name="attack" file="QSMY/character/hero/10004/attack"/>
+		<ani name="hurt" file="QSMY/character/hero/10004/hurt"/>
+	 	<ani name="sidle" file="QSMY/character/hero/10004/sidle"/>
+		<ani name="2004" file="QSMY/character/hero/10004/skill"/>
+		<ani name="dead" file="QSMY/character/hero/10004/dead"/>
+	</chaAni>
+<!--苍狼王-->
+	<chaAni id="hero5" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10005/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10005/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10005/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10005/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10005/sidle"/>
+        <ani name="dead" file="QSMY/character/hero/10005/dead"/>		
+		<ani name="2005" file="QSMY/character/hero/10005/skill"/>	
+	</chaAni>
+<!--赤练-->
+	<chaAni id="hero6" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10006/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10006/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10006/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10006/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10006/sidle"/>	
+		<ani name="dead" file="QSMY/character/hero/10006/dead"/>
+		<ani name="2006" file="QSMY/character/hero/10006/skill"/>	
+	</chaAni>
+<!--雪女-->
+	<chaAni id="hero7" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10007/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10007/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10007/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10007/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10007/sidle"/>
+        <ani name="dead" file="QSMY/character/hero/10007/dead"/>		
+		<ani name="2007" file="QSMY/character/hero/10007/skill"/>	
+	</chaAni>
+<!--高渐离-->
+	<chaAni id="hero8" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10008/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10008/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10008/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10008/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10008/sidle"/>
+        <ani name="dead" file="QSMY/character/hero/10008/dead"/>		
+		<ani name="2008" file="QSMY/character/hero/10008/skill"/>	
+	</chaAni>
+<!--白凤凰-->
+	<chaAni id="hero9" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10009/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10009/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10009/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10009/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10009/sidle"/>
+        <ani name="dead" file="QSMY/character/hero/10009/dead"/>		
+		<ani name="2009" file="QSMY/character/hero/10009/skill"/>	
+	</chaAni>
+<!--少司命-->
+	<chaAni id="hero10" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10010/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10010/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10010/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10010/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10010/sidle"/>
+        <ani name="dead" file="QSMY/character/hero/10010/dead"/>		
+		<ani name="2010" file="QSMY/character/hero/10010/skill"/>	
+	</chaAni>
+<!--大司命-->
+	<chaAni id="hero11" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10012/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10012/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10012/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10012/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10012/sidle" />
+       <ani name="dead" file="QSMY/character/hero/10012/dead" />		
+		<ani name="2011" file="QSMY/character/hero/10012/skill" />	
+	</chaAni>
+<!--盗跖-->
+	<chaAni id="hero12" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10013/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10013/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10013/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10013/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10013/sidle" />
+        <ani name="dead" file="QSMY/character/hero/10013/dead" />		
+		<ani name="2012" file="QSMY/character/hero/10013/skill" />	
+	</chaAni>
+<!--端木蓉-->
+	<chaAni id="hero13" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10015/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10015/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10015/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10015/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10015/sidle" />
+        <ani name="dead" file="QSMY/character/hero/10015/dead" />		
+		<ani name="2013" file="QSMY/character/hero/10015/skill" />	
+	</chaAni>
+<!--盖聂-->
+	<chaAni id="hero14" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10016/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10016/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10016/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10016/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10016/sidle" />	
+		<ani name="dead" file="QSMY/character/hero/10016/dead" />
+		<ani name="2014" file="QSMY/character/hero/10016/skill" />	
+	</chaAni>
+<!--卫庄-->
+	<chaAni id="hero15" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10017/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10017/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10017/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10017/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10017/sidle" />
+	    <ani name="dead" file="QSMY/character/hero/10017/dead" />
+		<ani name="2015" file="QSMY/character/hero/10017/skill" />	
+	</chaAni>
+<!--大铁锤-->
+	<chaAni id="hero16" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10018/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10018/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10018/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10018/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10018/sidle" />	
+		<ani name="dead" file="QSMY/character/hero/10018/dead" />
+		<ani name="2016" file="QSMY/character/hero/10018/skill" />	
+	</chaAni>
+<!--巨子-->
+	<chaAni id="hero17" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10019/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10019/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10019/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10019/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10019/sidle" />
+		<ani name="dead" file="QSMY/character/hero/10019/dead" />
+		<ani name="2017" file="QSMY/character/hero/10019/skill" />	
+	</chaAni>
+<!--胜七-->
+	<chaAni id="hero18" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10023/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10023/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10023/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10023/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10023/sidle" />
+        <ani name="dead" file="QSMY/character/hero/10023/dead" />		
+		<ani name="2018" file="QSMY/character/hero/10023/skill" />	
+	</chaAni>
+<!--真刚-->
+	<chaAni id="hero19" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10029/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10029/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10029/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10029/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10029/sidle" />
+        <ani name="dead" file="QSMY/character/hero/10029/dead" />		
+		<ani name="2019" file="QSMY/character/hero/10029/skill" />	
+	</chaAni>
+<!--断水-->
+	<chaAni id="hero20" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10030/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10030/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10030/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10030/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10030/sidle" />	
+		<ani name="dead" file="QSMY/character/hero/10030/dead" />
+		<ani name="2020" file="QSMY/character/hero/10030/skill" />	
+	</chaAni>
+<!--月神-->
+	<chaAni id="hero21" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10011/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10011/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10011/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10011/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10011/sidle" />
+	 	<ani name="dead" file="QSMY/character/hero/10011/dead" />		
+		<ani name="2021" file="QSMY/character/hero/10011/skill" />	
+	</chaAni>
+<!--机关无双-->
+	<chaAni id="hero22" defani="idle">
+		<ani name="idle" file="QSMY/character/hero/10014/idle" loop="true"/>	 
+		<ani name="run" file="QSMY/character/hero/10014/run" loop="true"/>	
+		<ani name="attack" file="QSMY/character/hero/10014/attack"/>		 
+		<ani name="hurt" file="QSMY/character/hero/10014/hurt"/>		 
+	 	<ani name="sidle" file="QSMY/character/hero/10014/sidle" />	
+		<ani name="dead" file="QSMY/character/hero/10014/dead" />
+		<ani name="2022" file="QSMY/character/hero/10014/skill" />	
+	</chaAni>
+<!-- 英雄动作 end-->
+
+<!-- 角色动作 start-->
+	<chaAni id="player_male" defani="idle">
+		<!-- 男 动作配置-->
+		<ani name="idle" file="QSMY/character/player_male/idle" loop="true"/>
+		<ani name="run" file="QSMY/character/player_male/run" loop="true"/>
+		<ani name="mount_idle" file="QSMY/character/player_male/mount_idle" loop="true"/>
+		<ani name="mount_run" file="QSMY/character/player_male/mount_run" loop="true"/>
+		<ani name="sidle" file="QSMY/character/player_male/sidle"/>
+		<ani name="dead" file="QSMY/character/player_male/dead"/>
+		<ani name="1001" file="QSMY/character/player_male/1001"/>		 
+		<ani name="1002" file="QSMY/character/player_male/1002"/>		 
+	 	<ani name="1003" file="QSMY/character/player_male/1003" />	
+		<ani name="1004" file="QSMY/character/player_male/1004" />	
+		<ani name="1005" file="QSMY/character/player_male/1005" />	
+		<ani name="1006" file="QSMY/character/player_male/1006" />	
+		<ani name="1007" file="QSMY/character/player_male/1007" />	
+		<ani name="1009" file="QSMY/character/player_male/miss" />
+		<ani name="hitfall" file="QSMY/character/player_male/hitfall" />	
+	</chaAni>
+	<chaAni id="player_female" defani="idle">
+		<!-- 女 动作配置-->
+		<ani name="idle" file="QSMY/character/player_female/idle" loop="true"/>
+		<ani name="run" file="QSMY/character/player_female/run" loop="true"/>
+		<ani name="mount_idle" file="QSMY/character/player_female/mount_idle" loop="true"/>
+		<ani name="mount_run" file="QSMY/character/player_female/mount_run" loop="true"/>
+		<ani name="sidle" file="QSMY/character/player_female/sidle"/>
+		<ani name="dead" file="QSMY/character/player_female/dead"/>
+		<ani name="1001" file="QSMY/character/player_female/1001"/>		 
+		<ani name="1002" file="QSMY/character/player_female/1002"/>		 
+	 	<ani name="1003" file="QSMY/character/player_female/1003" />	
+		<ani name="1004" file="QSMY/character/player_female/1004" />	
+		<ani name="1005" file="QSMY/character/player_female/1005" />	
+		<ani name="1006" file="QSMY/character/player_female/1006" />	
+		<ani name="1007" file="QSMY/character/player_female/1007" />	
+		<ani name="1009" file="QSMY/character/player_female/miss" />
+		<ani name="hitfall" file="QSMY/character/player_female/hitfall" />	
+	</chaAni>
+<!-- 角色动作 end-->
+
+<!--怪物动作 start-->	
+	 <chaAni id="m_001" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/10001/idle" loop="true"/>
+		<ani name="song"  file="QSMY/character/monster/10001/song" loop="true"/>
+		<ani name="sover"  file="QSMY/character/monster/10001/sover"/>
+		<ani name="attack"  file="QSMY/character/monster/10001/attack"/>
+		<ani name="dead" file="QSMY/character/monster/10001/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/10001/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/10001/run" loop="true"/>		 
+	</chaAni>
+	 <chaAni id="m_002" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/10014/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/10014/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/10014/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/10014/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/10014/run" loop="true"/>		 
+	</chaAni>
+	 <chaAni id="m_003" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/10103/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/10103/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/10103/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/10103/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/10103/run" loop="true"/>		 
+	</chaAni>
+	 <chaAni id="m_004" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20002/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20002/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20002/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20002/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20002/run" loop="true"/>		 
+	</chaAni>
+	 <chaAni id="m_005" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20013/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20013/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20013/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20013/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20013/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/monster/20013/walk" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_006" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20025/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20025/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20025/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20025/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20025/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/monster/20025/walk" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_008" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20081/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20081/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20081/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20081/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20081/run" loop="true"/>		 
+	</chaAni>
+	 <chaAni id="m_007" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20043/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20043/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20043/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20043/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20043/run" loop="true"/>		 
+	</chaAni>
+	 <chaAni id="m_010" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10004/idle" loop="true"/>
+		<ani name="song" file="QSMY/character/hero/10004/song" loop="true"/>	
+		<ani name="attack"  file="QSMY/character/hero/10004/attack"/>
+		<ani name="dead" file="QSMY/character/hero/10004/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10004/hurt"/>
+		<ani name="run"  file="QSMY/character/hero/10004/run" loop="true"/>
+	</chaAni>
+	 <chaAni id="m_011" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10005/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10005/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10005/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10005/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10005/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10005/walk" loop="true"/>
+		<ani name="2005"  file="QSMY/character/hero/10005/skill" />
+<ani name="walk"  file="QSMY/character/hero/10005/walk" loop="true"/>			
+	</chaAni>
+	 <chaAni id="m_012" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10006/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10006/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10006/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10006/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10006/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10006/walk" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_013" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10010/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10010/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10010/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10010/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10010/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10010/walk" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_014" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10015/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10015/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10015/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10015/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10015/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10015/walk" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_015" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10008/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10008/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10008/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10008/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10008/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10008/walk" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_016" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10017/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10017/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10017/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10017/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10017/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10017/walk" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_017" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10018/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10018/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10018/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10018/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10018/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10018/walk" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_018" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10029/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10029/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10029/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10029/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10029/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10029/walk" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_019" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/1018/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/1018/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/1018/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/1018/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/1018/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_020" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20019/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20019/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20019/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20019/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20019/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_021" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/1008/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/1008/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/1008/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/1008/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/1008/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_022" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20091/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20091/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20091/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20091/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20091/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_023" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20120/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20120/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20120/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20120/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20120/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_024" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20064/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20064/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20064/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20064/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20064/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_025" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20103/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20103/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20103/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20103/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20103/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_026" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20100/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20100/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20100/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20100/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20100/run" loop="true"/>	
+		<ani name="sidle"  file="QSMY/character/monster/20100/sidle" loop="true"/>			
+	</chaAni>
+	 <chaAni id="m_027" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/10027/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/10027/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/10027/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/10027/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/10027/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_028" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/10103/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/10103/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/10103/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/10103/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/10103/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_029" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20031/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20031/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20031/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20031/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20031/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_030" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/1063/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/1063/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/1063/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/1063/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/1063/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_031" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/1065/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/1065/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/1065/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/1065/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/1065/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_032" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/1004/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/1004/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/1004/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/1004/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/1004/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_033" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/1017/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/1017/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/1017/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/1017/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/1017/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_034" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/1091/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/1091/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/1091/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/1091/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/1091/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_035" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20039/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20039/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20039/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20039/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20039/run" loop="true"/>		
+	</chaAni>
+	 <chaAni id="m_040" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/10041/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/10041/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/10041/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/10041/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/10041/run" loop="true"/>		
+	</chaAni>
+     <chaAni id="m_042" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20069/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20069/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20069/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20069/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20069/run" loop="true"/>		
+	</chaAni>
+     <chaAni id="m_043" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20090/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20090/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20090/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20090/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20090/run" loop="true"/>		
+	</chaAni>
+     <chaAni id="m_045" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/1060/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/1060/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/1060/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/1060/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/1060/run" loop="true"/>		
+	</chaAni>
+     <chaAni id="m_048" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/10014/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/10014/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/10014/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/10014/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/10014/run" loop="true"/>		
+	</chaAni>
+     <chaAni id="m_049" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10009/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10009/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10009/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10009/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10009/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10009/walk" loop="true"/>	
+	</chaAni>	
+	<chaAni id="m_050" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10010/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10010/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10010/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10010/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10010/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10010/walk" loop="true"/>	
+	</chaAni>
+	<chaAni id="m_051" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10007/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10007/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10007/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10007/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10007/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10007/walk" loop="true"/>	
+	</chaAni>
+	<chaAni id="m_052" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10029/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10029/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10029/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10029/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10029/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10029/walk" loop="true"/>	
+	</chaAni>
+	<chaAni id="m_053" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10030/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10030/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10030/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10030/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10030/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10030/walk" loop="true"/>	
+	</chaAni>
+	<chaAni id="m_054" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10014/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10014/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10014/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10014/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10014/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10014/walk" loop="true"/>
+	</chaAni>
+	<chaAni id="m_055" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10012/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10012/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10012/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10012/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10012/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10012/walk" loop="true"/>
+	</chaAni>
+	<chaAni id="m_056" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10011/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10011/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10011/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10011/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10011/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10011/walk" loop="true"/>
+	</chaAni>
+	<chaAni id="m_057" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10023/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10023/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10023/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10023/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10023/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10023/walk" loop="true"/>
+	</chaAni>
+	<chaAni id="m_058" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10003/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10003/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10003/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10003/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10003/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10003/walk" loop="true"/>
+	</chaAni>
+	<chaAni id="m_059" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10013/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10013/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10013/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10013/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10013/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10013/walk" loop="true"/>
+	</chaAni>
+	<chaAni id="m_060" defani="idle">
+		<ani name="idle"  file="QSMY/character/hero/10018/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/hero/10018/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/hero/10018/dead"/>
+		<ani name="hurt" file="QSMY/character/hero/10018/hurt"/>	 
+		<ani name="run"  file="QSMY/character/hero/10018/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/hero/10018/walk" loop="true"/>
+	</chaAni>
+	<chaAni id="m_061" defani="idle">
+		<ani name="idle"  file="QSMY/character/monster/20108/idle" loop="true"/>		 
+		<ani name="attack"  file="QSMY/character/monster/20108/attack" loop="false"/> 
+		<ani name="dead" file="QSMY/character/monster/20108/dead"/>
+		<ani name="hurt" file="QSMY/character/monster/20108/hurt"/>	 
+		<ani name="run"  file="QSMY/character/monster/20108/run" loop="true"/>
+		<ani name="walk"  file="QSMY/character/monster/20108/walk" loop="true"/>
+	</chaAni>
+<!--怪物动作 end-->
+
+<!-- 男主角换装配置-->
+	<chaAvatar chaid="0">
+	<ava id="10000" part="RightHand" attachto="RightHand" cid="10000" />
+	<ava id="10010" part="RightHand" attachto="RightHand" cid="10010" />
+	<ava id="20010" part="RightHand" attachto="RightHand" cid="20010" />
+	<ava id="60010" part="RightHand" attachto="RightHand" cid="60010" />
+	<ava id="90010" part="RightHand" attachto="RightHand" cid="90010" />
+	<ava id="110010" part="RightHand" attachto="RightHand" cid="110010" />
+	<ava id="990010" part="RightHand" attachto="RightHand" cid="990010" />
+	
+	<ava id="10040" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="10040" />
+	<ava id="20040" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="20040" />
+	<ava id="60040" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="60040" />
+	<ava id="90040" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="90040" />	
+	<ava id="110040" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="110040" />
+	<ava id="990000" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="990000" />
+	
+	<ava id="10020" part="body" file="QSMY/character/avatar/10020" obj="body"/>
+	<ava id="10030" part="hair" file="QSMY/character/avatar/10020" obj="hair"/>
+	<ava id="10050" part="face" file="QSMY/character/avatar/10020" obj="face"/>
+
+	<ava id="20020" part="body" file="QSMY/character/avatar/50020" obj="body"/>
+	<ava id="20030" part="hair" file="QSMY/character/avatar/50020" obj="hair"/>
+	<ava id="20050" part="face" file="QSMY/character/avatar/50020" obj="face"/>
+	
+	<ava id="60020" part="body" file="QSMY/character/avatar/40020" obj="body"/>
+	<ava id="60030" part="hair" file="QSMY/character/avatar/40020" obj="hair"/>
+	<ava id="60050" part="face" file="QSMY/character/avatar/40020" obj="face"/>
+	
+	<ava id="90020" part="body" file="QSMY/character/avatar/30020" obj="body"/>
+	<ava id="90030" part="hair" file="QSMY/character/avatar/30020" obj="hair"/>
+	<ava id="90050" part="face" file="QSMY/character/avatar/30020" obj="face"/>
+
+	<ava id="110020" part="body" file="QSMY/character/avatar/20020" obj="body"/>
+	<ava id="110030" part="hair" file="QSMY/character/avatar/20020" obj="hair"/>
+	<ava id="110050" part="face" file="QSMY/character/avatar/20020" obj="face"/>
+
+    <ava id="990020" part="body" file="QSMY/character/avatar/80020" obj="body"/>
+	<ava id="990030" part="hair" file="QSMY/character/avatar/80020" obj="hair"/>
+	<ava id="990050" part="face" file="QSMY/character/avatar/80020" obj="face"/>
+	
+	</chaAvatar>	
+
+	<!-- 女主角换装配置-->
+	<chaAvatar chaid="1">
+	<ava id="10001" part="RightHand" attachto="RightHand" cid="10000" />
+	<ava id="10011" part="RightHand" attachto="RightHand" cid="10010" />
+	<ava id="20011" part="RightHand" attachto="RightHand" cid="20010" />
+	<ava id="60011" part="RightHand" attachto="RightHand" cid="60010" />
+	<ava id="90011" part="RightHand" attachto="RightHand" cid="90010" />
+	<ava id="110011" part="RightHand" attachto="RightHand" cid="110010" />
+	<ava id="990011" part="RightHand" attachto="RightHand" cid="990010" />
+	
+	<ava id="10041" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="10040" />
+	<ava id="20041" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="20040" />
+	<ava id="60041" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="60040" />
+	<ava id="90041" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="90040" />	
+	<ava id="110041" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="110040" />
+	<ava id="990001" part="Bip01 Spine1" attachto="Bip01 Spine1" cid="990000" />
+	
+	<ava id="10021" part="body" file="QSMY/character/avatar/10021" obj="body"/>
+	<ava id="10031" part="hair" file="QSMY/character/avatar/10021" obj="hair"/>
+	<ava id="10051" part="face" file="QSMY/character/avatar/10021" obj="face"/>
+
+	<ava id="20021" part="body" file="QSMY/character/avatar/50021" obj="body"/>
+	<ava id="20031" part="hair" file="QSMY/character/avatar/50021" obj="hair"/>
+	<ava id="20051" part="face" file="QSMY/character/avatar/50021" obj="face"/>
+	
+	<ava id="60021" part="body" file="QSMY/character/avatar/40021" obj="body"/>
+	<ava id="60031" part="hair" file="QSMY/character/avatar/40021" obj="hair"/>
+	<ava id="60051" part="face" file="QSMY/character/avatar/40021" obj="face"/>
+	
+	<ava id="90021" part="body" file="QSMY/character/avatar/30021" obj="body"/>
+	<ava id="90031" part="hair" file="QSMY/character/avatar/30021" obj="hair"/>
+	<ava id="90051" part="face" file="QSMY/character/avatar/30021" obj="face"/>
+
+	<ava id="110021" part="body" file="QSMY/character/avatar/20021" obj="body"/>
+	<ava id="110031" part="hair" file="QSMY/character/avatar/20021" obj="hair"/>
+	<ava id="110051" part="face" file="QSMY/character/avatar/20021" obj="face"/>
+
+    <ava id="990021" part="body" file="QSMY/character/avatar/80021" obj="body"/>
+	<ava id="990031" part="hair" file="QSMY/character/avatar/80021" obj="hair"/>
+	<ava id="990051" part="face" file="QSMY/character/avatar/80021" obj="face"/>
+	</chaAvatar>	
+	
+
+
+	
+</data>

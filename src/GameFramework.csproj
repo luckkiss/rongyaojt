@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{A9B8AE02-5F88-42C1-A51E-390E02E2EC6F}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <OutputType>Library</OutputType>
+    <AssemblyName>GameFramework</AssemblyName>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\assets\bin\Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>..\assets\bin\Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>..\assets\bin\Data\Managed\System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="DOTween">
+      <HintPath>..\assets\bin\Data\Managed\DOTween.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BtnEventTriggerListener.cs" />
+    <Compile Include="EventTriggerListener.cs" />
+    <Compile Include="GameFramework\AttAni.cs" />
+    <Compile Include="GameFramework\AttAniManager.cs" />
+    <Compile Include="GameFramework\AvatarBase.cs" />
+    <Compile Include="GameFramework\avatarInfo.cs" />
+    <Compile Include="GameFramework\Baselayer.cs" />
+    <Compile Include="GameFramework\BaseLGUI.cs" />
+    <Compile Include="GameFramework\Chinfo.cs" />
+    <Compile Include="GameFramework\clientBase.cs" />
+    <Compile Include="GameFramework\ClientConfig.cs" />
+    <Compile Include="GameFramework\ClientSession.cs" />
+    <Compile Include="GameFramework\configParser.cs" />
+    <Compile Include="GameFramework\DispAttAni.cs" />
+    <Compile Include="GameFramework\evt_ui.cs" />
+    <Compile Include="GameFramework\FightTextLayer.cs" />
+    <Compile Include="GameFramework\FloatUi.cs" />
+    <Compile Include="GameFramework\GameConstantDef.cs" />
+    <Compile Include="GameFramework\GameEvent.cs" />
+    <Compile Include="GameFramework\gameEventDelegate.cs" />
+    <Compile Include="GameFramework\GameEventDispatcher.cs" />
+    <Compile Include="GameFramework\GameEventDispatcherCollections.cs" />
+    <Compile Include="GameFramework\gameMain.cs" />
+    <Compile Include="GameFramework\gameManager.cs" />
+    <Compile Include="GameFramework\GameTools.cs" />
+    <Compile Include="GameFramework\GAME_EVENT_DEFAULT.cs" />
+    <Compile Include="GameFramework\GMCommand.cs" />
+    <Compile Include="GameFramework\GRBaseImpls.cs" />
+    <Compile Include="GameFramework\GRClient.cs" />
+    <Compile Include="GameFramework\IBgLayerUI.cs" />
+    <Compile Include="GameFramework\IClientBase.cs" />
+    <Compile Include="GameFramework\IGameEventDispatcher.cs" />
+    <Compile Include="GameFramework\IGameEventDispatcherCollections.cs" />
+    <Compile Include="GameFramework\IMediaClientBase.cs" />
+    <Compile Include="GameFramework\IMessageSend.cs" />
+    <Compile Include="GameFramework\IObjectPlugin.cs" />
+    <Compile Include="GameFramework\IProcess.cs" />
+    <Compile Include="GameFramework\ITimer.cs" />
+    <Compile Include="GameFramework\IUI.cs" />
+    <Compile Include="GameFramework\JSON.cs" />
+    <Compile Include="GameFramework\JSONArray.cs" />
+    <Compile Include="GameFramework\JSONBinaryTag.cs" />
+    <Compile Include="GameFramework\JSONClass.cs" />
+    <Compile Include="GameFramework\JSONData.cs" />
+    <Compile Include="GameFramework\JSONLazyCreator.cs" />
+    <Compile Include="GameFramework\JSONNode.cs" />
+    <Compile Include="GameFramework\LGAvatarBase.cs" />
+    <Compile Include="GameFramework\LGDataBase.cs" />
+    <Compile Include="GameFramework\lgGDBase.cs" />
+    <Compile Include="GameFramework\LGGRBaseImpls.cs" />
+    <Compile Include="GameFramework\LoadingUI.cs" />
+    <Compile Include="GameFramework\loadUIStruct.cs" />
+    <Compile Include="GameFramework\mbCheckShowdataStruct.cs" />
+    <Compile Include="GameFramework\MediaClientBase.cs" />
+    <Compile Include="GameFramework\MsgProcduresBase.cs" />
+    <Compile Include="GameFramework\NetClient.cs" />
+    <Compile Include="GameFramework\notifyStruct.cs" />
+    <Compile Include="GameFramework\npcCarryStruct.cs" />
+    <Compile Include="GameFramework\OBJECT_NAME_DEF.cs" />
+    <Compile Include="GameFramework\optionFunStruct.cs" />
+    <Compile Include="GameFramework\paramStruct.cs" />
+    <Compile Include="GameFramework\processManager.cs" />
+    <Compile Include="GameFramework\processQueue.cs" />
+    <Compile Include="GameFramework\processStruct.cs" />
+    <Compile Include="GameFramework\ScenceUtils.cs" />
+    <Compile Include="GameFramework\ScrollControler.cs" />
+    <Compile Include="GameFramework\Skin.cs" />
+    <Compile Include="GameFramework\StoryUI.cs" />
+    <Compile Include="GameFramework\StringUtils.cs" />
+    <Compile Include="GameFramework\TabControl.cs" />
+    <Compile Include="GameFramework\TabControler.cs" />
+    <Compile Include="GameFramework\taskEvent.cs" />
+    <Compile Include="GameFramework\timer.cs" />
+    <Compile Include="GameFramework\timersManager.cs" />
+    <Compile Include="GameFramework\tmpData.cs" />
+    <Compile Include="GameFramework\UIbase.cs" />
+    <Compile Include="GameFramework\UIClient.cs" />
+    <Compile Include="GameFramework\uiData.cs" />
+    <Compile Include="GameFramework\UiEventCenter.cs" />
+    <Compile Include="GameFramework\UI_EVENT_DEFAULT.cs" />
+    <Compile Include="GameFramework\var_actUintStr.cs" />
+    <Compile Include="GameFramework\var_dicStrIUIbasecontrol.cs" />
+    <Compile Include="GameFramework\V_EVENT.cs" />
+    <Compile Include="GameFramework\Window.cs" />
+    <Compile Include="GameFramework\Window3d.cs" />
+    <Compile Include="GameFramework\xilianInfo.cs" />
+    <Compile Include="GameFramework\_ctrlData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\CrossMono.fakes" />
+  </ItemGroup>
+  <ItemGroup>
+    <Fakes Include="Fakes\CrossMonoUnityImpl.fakes" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="CrossMono.csproj">
+      <Project>{c4e13aa0-38e4-4011-9edf-2b4af65dafd3}</Project>
+      <Name>CrossMono</Name>
+    </ProjectReference>
+    <ProjectReference Include="CrossMonoUnityImpl.csproj">
+      <Project>{ffeb875c-70e4-4b6b-8bc4-5ee396a7f9f8}</Project>
+      <Name>CrossMonoUnityImpl</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
